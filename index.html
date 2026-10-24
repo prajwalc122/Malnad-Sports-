@@ -1,0 +1,1140 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Malnad Sports | Sports equipment store</title>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff;--sf:#fff;--ink:#212121;--mut:#6b6b6b;--pri:#1a56db;--onp:#fff;--hd:#101c2e;--acc:#ffc107;--onacc:#1d1500;--ln:#e3e3e3;--sale:#c62828;--ok:#1b7f3b;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1311;--sf:#13211e;--ink:#e8efec;--mut:#9bafa8;--pri:#58bfb0;--onp:#06201c;--hd:#081f1c;--ln:#25382f;--sale:#ff8f80;--ok:#5fd39a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0b1311;--sf:#13211e;--ink:#e8efec;--mut:#9bafa8;--pri:#58bfb0;--onp:#06201c;--hd:#081f1c;--ln:#25382f;--sale:#ff8f80;--ok:#5fd39a;color-scheme:dark}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.5 "Source Sans 3",system-ui,sans-serif}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--hd);z-index:60}
+h1,h2,h3,h4,.logo,.b1,.b2,.b3{font-family:Archivo,system-ui,sans-serif}
+h1,h2,h3,h4{margin:0;line-height:1.15}a{color:inherit;text-decoration:none}
+button,input,select{font:inherit;color:inherit}button{cursor:pointer}
+:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+.wrap{max-width:1200px;margin:0 auto;padding:16px}
+.strip{background:var(--ln);color:var(--ink);text-align:center;font-size:13px;padding:5px 10px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--hd);color:#fff}
+.in{max-width:1200px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.logo{font-weight:800;font-size:24px;letter-spacing:-.3px}.logo b{color:var(--acc);font-weight:800}
+/* sb base moved to new block */
+/* sb input moved to .sbi-wrap input */
+.sb .sb-submit{border:0;border-radius:0 6px 6px 0;background:var(--acc);color:var(--onacc);font-weight:600;padding:0 18px;cursor:pointer;display:grid;place-items:center}
+.ac{display:flex;gap:16px;font-weight:600;font-size:15px}.ac a span{background:var(--acc);color:var(--onacc);border-radius:9px;padding:0 6px;font-size:12px;margin-left:3px}
+.cats{display:flex;gap:4px;overflow-x:auto;padding:0 12px 8px;max-width:1200px;margin:0 auto;scrollbar-width:none}
+.cats a{white-space:nowrap;padding:6px 12px;font-size:15px;border-radius:5px;opacity:.9}.cats a:hover{background:rgba(255,255,255,.12)}
+.b1,.b2,.b3{border-radius:6px;padding:10px 16px;font-weight:700;font-size:14px;border:1.5px solid transparent;text-align:center;display:inline-block}
+.b1{background:#f26b1d;color:#fff}.b2{background:var(--acc);color:var(--onacc)}.b3{background:transparent;border-color:currentColor}
+.b1.lg,.b3.lg{padding:13px 22px;font-size:16px}.b1:disabled{opacity:.5}
+.hero{background:var(--hd);color:#fff;display:grid;grid-template-columns:1.1fr 1fr;gap:28px;align-items:center;max-width:1200px;margin:16px auto;padding:36px;border-radius:10px}
+.hero h1{font-size:clamp(30px,5vw,52px);font-weight:800;letter-spacing:-1px}.hero p{max-width:46ch;opacity:.85;margin:14px 0 22px}.hero .b3{margin-left:8px}
+.hg{display:grid;grid-template-columns:1fr 1fr;gap:10px}.hg .art{background:var(--sf)}
+.art{aspect-ratio:1/1;border-radius:8px;background:hsl(var(--h) 28% 52%/.16);color:hsl(var(--h) 38% 38%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;overflow:hidden}
+.art svg{width:46%;transition:transform .2s}.art span{font:600 12px Archivo,sans-serif;opacity:.8}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .art{color:hsl(var(--h) 45% 70%)}}
+h2.t{font-size:24px;margin:30px 0 14px;display:flex;justify-content:space-between;align-items:baseline}h2.t a{font:600 14px "Source Sans 3";color:var(--pri)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+.pc{position:relative;background:var(--sf);border:1px solid var(--ln);border-radius:8px;padding:10px;display:flex;flex-direction:column}
+.pb{display:flex;flex-direction:column;gap:5px;padding-top:10px;flex:1}.br{color:var(--mut);font-size:13px}
+.pn{font-weight:600;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.6em}
+.pp{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}.pp b{font:700 20px Archivo,sans-serif}.pp s{color:var(--mut);font-size:14px}.pp em{color:var(--ok);font-style:normal;font-weight:600;font-size:14px}
+.rt{display:inline-block;background:var(--ok);color:#fff;font-size:13px;font-weight:600;border-radius:4px;padding:0 6px}.rc{color:var(--mut);font-size:13px;margin-left:6px}
+.st{font-size:13px;color:var(--ok)}.st.low{color:var(--sale)}.ab{display:flex;gap:8px;margin-top:auto;padding-top:6px}.ab button{flex:1;padding:9px 4px}
+.hb{position:absolute;top:16px;right:16px;width:34px;height:34px;border-radius:50%;border:0;background:var(--sf);display:grid;place-items:center;color:var(--mut)}.hb svg{width:19px}.hb.on{color:var(--sale)}.hb.on svg{fill:currentColor}
+.sps{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px;scrollbar-width:none}
+.sp{flex:none;width:96px;text-align:center;align-items:center;display:flex;flex-direction:column;gap:6px;padding:8px 4px;color:hsl(var(--h) 38% 38%)}
+.sp svg{width:64px;height:64px;padding:16px;border-radius:50%;background:hsl(var(--h) 28% 52%/.14)}.sp b{font:600 14px Archivo;color:var(--ink)}.sp span{display:none}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .sp{color:hsl(var(--h) 45% 70%)}}
+.why{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0;background:var(--sf);border:1px solid var(--ln);border-radius:8px}.why div{padding:18px;border-right:1px solid var(--ln)}.why b{display:block;font-family:Archivo;margin-bottom:4px}.why span{color:var(--mut);font-size:15px}
+.rv{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}.rv div{background:var(--sf);border:1px solid var(--ln);border-radius:8px;padding:16px}.rv p{margin:8px 0}.mut{color:var(--mut)}
+footer{background:var(--hd);color:#fff;margin-top:40px}.fi{max-width:1200px;margin:0 auto;padding:28px 16px;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:20px;font-size:15px}.fi a{display:block;opacity:.8;padding:2px 0}.fi h4{margin-bottom:8px}
+.shop{display:grid;grid-template-columns:240px 1fr;gap:20px}.fp{background:var(--sf);border:1px solid var(--ln);border-radius:8px;padding:14px;align-self:start}.fp h4{margin:14px 0 6px;font-size:15px}.fh{display:none}
+.ck{display:flex;gap:8px;align-items:center;padding:3px 0;font-size:15px}.fp input[type=range]{width:100%}.fp .b3{margin-top:14px;width:100%;color:var(--pri)}
+.bar{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px;flex-wrap:wrap}.bar select,.fbtn{background:var(--sf);border:1px solid var(--ln);border-radius:6px;padding:8px 10px}.fbtn{display:none}
+.pd{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px}.big{max-width:520px}.th{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:10px;max-width:520px}.th button{padding:0;border:2px solid transparent;border-radius:8px;background:none}.th button.on{border-color:var(--pri)}
+.inf{display:flex;flex-direction:column;gap:10px}.inf h1{font-size:30px}.big2 b{font-size:30px}.bc{font-size:14px;color:var(--mut);margin-bottom:12px}
+.pill{border:1.5px solid var(--ln);background:var(--sf);border-radius:6px;padding:8px 14px;margin:0 6px 6px 0}.pill.on{border-color:var(--pri);background:var(--pri);color:var(--onp)}
+.qs{display:inline-flex;align-items:center;border:1.5px solid var(--ln);border-radius:6px;background:var(--sf)}.qs button{width:34px;height:34px;border:0;background:none;font-size:18px}.qs span{min-width:32px;text-align:center}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.chk{display:flex;gap:8px;max-width:300px}.chk input,.fm input,.fm select,.cpn input{flex:1;min-width:0;padding:10px;border:1.5px solid var(--ln);border-radius:6px;background:var(--sf);width:100%}
+table{border-collapse:collapse;width:100%;max-width:640px;display:block;overflow-x:auto}td{padding:8px 0;border-bottom:1px solid var(--ln)}td:first-child{color:var(--mut);width:40%}
+.two{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:20px;align-items:start}.box{background:var(--sf);border:1px solid var(--ln);border-radius:8px;padding:16px}
+.ln{display:grid;grid-template-columns:84px 1fr auto;gap:14px;padding:14px 0;border-bottom:1px solid var(--ln);align-items:center}.ln .art svg{width:50%}.ln .art span{display:none}
+.sr{display:flex;justify-content:space-between;padding:5px 0}.sr.t{border-top:1px solid var(--ln);margin-top:6px;padding-top:10px;font:700 19px Archivo}.sr.g{color:var(--ok)}
+.fm{display:grid;grid-template-columns:1fr 1fr;gap:12px}.fm label{display:flex;flex-direction:column;gap:4px;font-size:14px;color:var(--mut)}.fm .w{grid-column:1/-1}
+.err{color:var(--sale);font-weight:600}.empty{text-align:center;padding:50px 10px;color:var(--mut)}
+.tl{list-style:none;margin:12px 0;padding:0}.tl li{display:flex;gap:10px;align-items:center;padding:5px 0;color:var(--mut)}.tl i{width:12px;height:12px;border-radius:50%;border:2px solid var(--ln);flex:none}.tl li.on{color:var(--ink)}.tl li.on i{background:var(--ok);border-color:var(--ok)}.tl small{color:var(--mut)}
+#toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:6px;z-index:80;display:none;max-width:90%}
+.mod{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:70;display:grid;place-items:center}.mod div{background:var(--sf);padding:26px;border-radius:10px;max-width:340px;text-align:center}
+@media(max-width:1024px){.shop{grid-template-columns:210px 1fr}.two{grid-template-columns:minmax(0,1fr) 300px}.pd{gap:20px}.hero{padding:28px}.in{gap:10px}}
+@media(max-width:820px){.hero{grid-template-columns:1fr;margin:10px;padding:22px}.pd,.two,.shop{grid-template-columns:1fr}.fm{grid-template-columns:1fr}.fbtn{display:block}
+.fp{position:fixed;left:0;right:0;bottom:0;max-height:80vh;overflow:auto;z-index:65;border-radius:14px 14px 0 0;transform:translateY(110%);padding-bottom:calc(14px + env(safe-area-inset-bottom,0px))}.fp.open{transform:none;box-shadow:0 -8px 30px rgba(0,0,0,.35)}.fh{display:flex;justify-content:space-between}.fh .x{border:0;background:none;color:var(--pri);font-weight:700}
+.grid{grid-template-columns:repeat(2,1fr);gap:10px}.ab{flex-direction:column}.acts{position:fixed;left:0;right:0;bottom:0;z-index:55;background:var(--sf);border-top:1px solid var(--ln);padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));flex-wrap:nowrap}.acts button{flex:1}footer{padding-bottom:70px}.ac a.ho{display:none}.why div{border-right:0;border-bottom:1px solid var(--ln)}}
+input,select{font-size:16px}.bn,.fo{display:none}.bn i:empty{display:none}
+@media(max-width:820px){.in{padding:8px 12px;gap:8px}.logo{font-size:20px;margin-right:0}.ac{order:2}.sb{order:3;flex:1 1 100%;height:46px;width:100%}/* sb input mobile padding removed */.hg{grid-template-columns:repeat(4,1fr)}.hg .art span{display:none}.big,.th{max-width:none}.pd .big .art{aspect-ratio:4/3}.qs button{width:42px;height:42px}.pill{padding:10px 16px}.ck{padding:8px 0}.b1,.b2,.b3{min-height:44px}.cats a{padding:9px 12px}.fo{display:block;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:64}
+.bn{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:58;background:var(--sf);border-top:1px solid var(--ln);padding-bottom:env(safe-area-inset-bottom,0px)}.bn a{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;padding:7px 0;font-size:11px;color:var(--mut);position:relative}.bn a.on{color:var(--pri);font-weight:600}.bn svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.bn i{position:absolute;top:3px;left:55%;background:#f26b1d;color:#fff;border-radius:8px;font:600 10px/14px Archivo,sans-serif;min-width:14px;text-align:center;font-style:normal;padding:0 3px}body.pdp .bn{display:none}body{padding-bottom:62px}body.pdp{padding-bottom:0}#toast{bottom:calc(76px + env(safe-area-inset-bottom,0px))}}
+@media(max-width:480px){.hero{padding:18px}.hero .b1,.hero .b3{display:block;margin:8px 0 0}.ln{grid-template-columns:64px 1fr}.ln>b{grid-column:2}.grid{gap:8px}.pc{padding:8px}.pn{font-size:14px}.pp b{font-size:17px}.big2 b{font-size:24px}.inf h1{font-size:22px}h2.t{font-size:20px;margin:22px 0 10px}.mod div{margin:16px}.th{gap:6px}.wrap{padding:12px}.box{padding:12px}.hg .art svg{width:60%}.strip{font-size:12px}}
+@media(min-width:1400px){.wrap,.in,.cats,.hero,.fi{max-width:1360px}.grid{grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}}
+.dl{display:flex;flex-direction:column;line-height:1.15;font-size:14px}.dl small{font-size:12px;opacity:.8}/* sb select removed *//* sb input border-radius removed *//* sb button removed - now .sb-submit */.ac a{display:flex;flex-direction:column;line-height:1.15}.ac small{font-size:12px;font-weight:400;opacity:.85}.ac .ct{flex-direction:row;align-items:center;gap:4px}.ac .ct svg{width:28px;height:28px}.sub{background:#1c2b42}.cats{padding:2px 12px}
+.hbi{background:linear-gradient(180deg,var(--c) 0,var(--c) 48%,var(--bg) 100%);color:#fff;padding:36px 64px 160px;display:flex;justify-content:space-between;align-items:flex-start;gap:20px}.hbt{max-width:520px}.hbt h1{font-size:clamp(28px,4vw,46px);font-weight:800;letter-spacing:-.8px}.hbt p{margin:10px 0 18px;opacity:.9;font-size:18px}.hbg{display:grid;grid-template-columns:repeat(2,150px);gap:10px}.hbg .art{background:var(--sf)}.ar{position:absolute;top:20px;height:160px;width:48px;border:0;background:transparent;color:#fff;font-size:44px;z-index:3}.ar.l{left:0}.ar.r{right:0}
+.cg{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:-150px;position:relative;z-index:2}.cd{background:var(--sf);border:1px solid var(--ln);padding:16px;display:flex;flex-direction:column;gap:10px}.cd h2{font-size:20px}.mg{display:grid;grid-template-columns:1fr 1fr;gap:10px}.mt{font-size:12px;display:flex;flex-direction:column;gap:4px;min-width:0}.mt .art span{display:none}.mt>span{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.sl{color:var(--pri);font-size:14px;margin-top:auto}
+.hrw{border:1px solid var(--ln);padding:6px 16px 12px;margin-top:16px;background:var(--sf)}.hrw h2.t{margin:12px 0}.hr{display:flex;gap:12px;overflow-x:auto;padding-bottom:8px}.hr .pc{flex:none;width:200px}.tt{display:block;width:100%;border:0;background:#2b3c57;color:#fff;padding:14px;font-size:14px}
+@media(max-width:1024px){.cg{grid-template-columns:repeat(2,1fr)}.hbg{grid-template-columns:repeat(2,110px)}}
+@media(max-width:820px){header{position:relative;top:auto}.dl,.ac a:nth-child(2),/* sb select hide removed *//* sb input mobile border-radius removed */.hbi{padding:22px 40px 100px}.hbt p{font-size:15px}.hbg{display:none}.cg{margin-top:-70px;gap:10px}.ar{height:100px;width:34px;font-size:32px;top:10px}.ac small{display:none}.ac .ct svg{width:24px;height:24px}}
+@media(max-width:480px){.cd{padding:10px}.cd h2{font-size:15px}.mg{gap:6px}.mt{font-size:11px}.hr .pc{width:160px}.hrw{padding:4px 10px 10px}}
+.art img{width:100%;height:100%;object-fit:cover}
+.hbi{padding-bottom:40px;background:var(--c)}.ar{height:100%;top:0}.cg{margin-top:20px}
+.pr{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:22px}.pr a{border-radius:10px;padding:26px;min-height:150px;display:flex;flex-direction:column;gap:8px;align-items:flex-start;justify-content:center;color:#10231c}.pr .p1{background:linear-gradient(120deg,#c9f2dc,#6fcf97)}.pr .p2{background:linear-gradient(120deg,#ffe3b8,#ffb869)}.pr h2{font-size:24px}.pr b{font:800 22px Archivo,sans-serif}.sp img{flex:none}
+.so{display:flex;gap:10px;margin-top:12px}.so a{width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.14);display:grid;place-items:center;font:700 13px Archivo,sans-serif;opacity:1}
+@media(max-width:820px){.hbi{padding:22px 40px 30px}.cg{margin-top:16px}}@media(max-width:600px){.pr{grid-template-columns:1fr}}
+
+/* ---- clean homepage ---- */
+/* sb input mobile border-radius removed */
+.home{padding-top:16px}
+.hero2{position:relative}
+.hero2 .hbi{border-radius:16px;padding:40px 72px 44px;min-height:260px;align-items:center;background:var(--c)}
+.hero2 .hbg{grid-template-columns:repeat(2,140px)}
+.hero2 .ar{top:50%;height:40px;width:40px;border-radius:50%;background:rgba(255,255,255,.16);font-size:26px;line-height:1;transform:translateY(-50%)}
+.hero2 .ar.l{left:16px}.hero2 .ar.r{right:16px}.hero2 .ar:hover{background:rgba(255,255,255,.3)}
+.dots{position:absolute;bottom:14px;left:0;right:0;display:flex;justify-content:center;gap:6px}
+.dots i{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.4)}.dots i.on{background:var(--acc)}
+.home .sps{justify-content:space-between;gap:10px;margin-top:28px;padding-bottom:0}
+.home .sp{width:92px}.home .sp svg,.home .sp img{width:72px;height:72px}.home .sp img{border-radius:50%;object-fit:cover}
+.home h2.t{margin:36px 0 14px}
+.feat .ab .b1{display:none}
+.home .pr{margin-top:36px}.pr .b1{padding:8px 18px;font-size:14px}
+.fi h4{margin-bottom:10px}.fi a:hover{opacity:1}
+.cp{text-align:center;opacity:.7;font-size:13px;padding:14px 16px 18px;border-top:1px solid rgba(255,255,255,.12);max-width:1200px;margin:0 auto}
+footer{margin-top:48px}
+.home{padding-top:12px}.sx{padding:40px 0}.sx.alt{background:rgba(127,127,127,.07)}.sx .wrap{padding-top:0;padding-bottom:0}
+.sh{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;margin-bottom:20px}.sh h2{font-size:26px;letter-spacing:-.3px}.sh p{margin:4px 0 0;color:var(--mut);font-size:15px}.sh>a{color:var(--pri);font-weight:600;white-space:nowrap}
+.sx .sps,.sx .pr,.sx .kit{margin-top:0}
+.hero2{margin-top:4px}
+.trust{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--ln);border-radius:10px;background:var(--sf);margin-top:16px}.trust div{padding:14px 18px;border-right:1px solid var(--ln)}.trust div:last-child{border-right:0}.trust b{display:block;font:700 14px Archivo,sans-serif}.trust span{font-size:13px;color:var(--mut)}
+.tabs{display:flex;gap:8px;overflow-x:auto;margin-bottom:16px;scrollbar-width:none}.tabs button{border:1px solid var(--ln);background:var(--sf);border-radius:999px;padding:8px 18px;font-weight:600;white-space:nowrap}.tabs button.on{background:var(--hd);color:#fff;border-color:var(--hd)}
+.sx .hr{padding-bottom:6px}
+@media(max-width:820px){.sx{padding:28px 0}.sh h2{font-size:21px}.trust{grid-template-columns:1fr 1fr}.trust div:nth-child(2){border-right:0}.trust div:nth-child(-n+2){border-bottom:1px solid var(--ln)}}
+html{scroll-behavior:smooth}
+.art{background:radial-gradient(circle at 50% 30%,hsl(var(--h) 45% 97%),hsl(var(--h) 30% 82%))}
+.art svg.pic{filter:drop-shadow(0 8px 6px rgba(0,0,0,.28))}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .art{background:radial-gradient(circle at 50% 30%,hsl(var(--h) 25% 28%),hsl(var(--h) 25% 16%))}}
+.pc{transition:box-shadow .2s,border-color .2s}.pc:hover{box-shadow:0 8px 22px rgba(16,28,46,.14);border-color:var(--pri)}
+.bdg{position:absolute;top:14px;left:14px;z-index:2;background:var(--sale);color:#fff;font:700 12px Archivo,sans-serif;padding:3px 8px;border-radius:4px}
+.pc .art{border-radius:6px}.pc .pn:hover{color:var(--pri)}
+.pp b{letter-spacing:-.2px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.pc{transition:none}}
+.art svg.pic{width:72%}.sp svg.pic{padding:10px}
+.sb{position:relative}.sgb{position:absolute;top:100%;left:0;right:0;background:var(--sf);color:var(--ink);border:1px solid var(--ln);border-radius:0 0 8px 8px;box-shadow:0 8px 24px rgba(0,0,0,.25);max-height:300px;overflow:auto;z-index:70}.sgb[hidden]{display:none}.sgb a{display:flex;align-items:center;gap:10px;padding:6px 12px;font-size:14px}.sgb a:hover{background:rgba(127,127,127,.14)}.th2{width:36px;height:36px;flex:none}.th2 .art{border-radius:6px;aspect-ratio:1}.th2 .art span{display:none}.sgn{padding:12px;font-size:14px;color:var(--mut)}
+.grid.cs{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}.cs .pc{padding:8px}.cs .art{aspect-ratio:4/3}.cs .pb{gap:3px;padding-top:6px}.cs .pn{font-size:14px}.cs .br,.cs .st,.cs .rc,.cs .pp em,.cs .ab .b1{display:none}.cs .pp b{font-size:16px}.cs .ab button{padding:6px;min-height:36px;font-size:13px}
+.brands{display:flex;flex-wrap:wrap;gap:10px}.brands a{border:1px solid var(--ln);background:var(--sf);border-radius:999px;padding:8px 18px;font-weight:600}.brands a:hover{border-color:var(--pri);color:var(--pri)}
+.kit{margin-top:36px;background:var(--hd);color:#fff;border-radius:14px;padding:28px 32px;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}.kit p{margin:6px 0 0;opacity:.85;max-width:52ch}.home .why{margin-top:36px}
+@media(max-width:1024px){.hero2 .hbg{grid-template-columns:repeat(2,110px)}}
+@media(max-width:820px){.hero2 .hbi{padding:26px 52px 40px;min-height:0}.hero2 .hbg{display:none}.home .sps{justify-content:flex-start}.hero2 .ar{width:32px;height:32px;font-size:22px}.hero2 .ar.l{left:8px}.hero2 .ar.r{right:8px}}
+@media(max-width:480px){.home .sp{width:78px}.home .sp svg,.home .sp img{width:60px;height:60px}.hero2 .hbt p{font-size:14px}.hero2 .hbi{border-radius:12px}}
+
+
+
+/* ====== SEARCH BAR with mic + camera (Amazon style) ====== */
+.sb{position:relative;display:flex;height:46px;flex:1 1 260px;min-width:0;max-width:100%}
+.sbi-wrap{display:flex;align-items:center;flex:1;min-width:0;background:#fff;border-radius:6px 0 0 6px;overflow:hidden}
+.sbi-wrap input{flex:1;border:0;background:transparent;padding:0 6px 0 14px;color:#111;font-size:15px;height:100%;min-width:0}
+.sbi-wrap input:focus{outline:none}
+.sb-divider{width:1px;height:26px;background:#ccc;flex:none;align-self:center}
+.sb-icon-btn{width:44px;height:100%;border:0;background:transparent;cursor:pointer;display:flex;align-items:center;justify-content:center;color:#555;flex:none;transition:color .15s,background .15s}
+.sb-icon-btn:hover{background:#f0f0f0;color:#1a56db}
+.sb-icon-btn.listening{color:#e53935!important;animation:icon-pulse .8s ease-in-out infinite}
+.sb-icon-btn.capturing{color:#1a56db!important}
+@keyframes icon-pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.25)}}
+.sb-submit{border:0;border-radius:0 6px 6px 0;background:var(--acc);color:var(--onacc);font-weight:600;padding:0 20px;cursor:pointer;display:grid;place-items:center;height:100%;flex:none}
+/* ====== VOICE MODAL ====== */
+#voice-modal{position:fixed;inset:0;background:rgba(0,0,0,.52);z-index:9999;display:none;align-items:center;justify-content:center;backdrop-filter:blur(3px)}
+#voice-modal.open{display:flex}
+.vm-box{background:#fff;border-radius:20px;padding:44px 48px 36px;text-align:center;width:min(92vw,400px);display:flex;flex-direction:column;align-items:center;gap:20px;box-shadow:0 28px 70px rgba(0,0,0,.3)}
+.vm-box h3{margin:0;font-size:22px;font-weight:700;color:#111}
+.vm-box p{margin:0;color:#666;font-size:15px;min-height:22px;line-height:1.5}
+.mic-ring{width:90px;height:90px;border-radius:50%;background:#e53935;display:flex;align-items:center;justify-content:center;position:relative;cursor:pointer}
+.mic-ring::before{content:'';position:absolute;border-radius:50%;width:100%;height:100%;border:3px solid rgba(229,57,53,.4);animation:ring-ex 1.4s ease-out infinite}
+.mic-ring::after{content:'';position:absolute;border-radius:50%;width:100%;height:100%;border:3px solid rgba(229,57,53,.2);animation:ring-ex 1.4s ease-out .6s infinite}
+@keyframes ring-ex{0%{transform:scale(1);opacity:1}100%{transform:scale(1.85);opacity:0}}
+.mic-ring.done{background:#1a56db}.mic-ring.done::before,.mic-ring.done::after{display:none}
+.vm-cancel{border:1.5px solid #ddd;background:#fff;border-radius:8px;padding:10px 30px;font-weight:600;font-size:15px;cursor:pointer;color:#555}
+.vm-cancel:hover{border-color:#999;color:#111}
+/* ====== CAMERA MODAL ====== */
+#cam-modal{position:fixed;inset:0;background:#000;z-index:9999;display:none;flex-direction:column}
+#cam-modal.open{display:flex}
+#cam-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+#cam-canvas{display:none}
+.cam-ui{position:relative;z-index:2;display:flex;flex-direction:column;height:100%}
+.cam-topbar{display:flex;align-items:center;justify-content:space-between;padding:max(env(safe-area-inset-top),14px) 18px 14px;background:linear-gradient(to bottom,rgba(0,0,0,.65),transparent)}
+.cam-topbar-title{color:#fff;font-weight:700;font-size:17px}
+.cam-icon-btn{background:transparent;border:0;color:#fff;width:42px;height:42px;display:flex;align-items:center;justify-content:center;cursor:pointer;border-radius:50%;transition:background .15s}
+.cam-icon-btn:hover{background:rgba(255,255,255,.18)}
+.cam-viewfinder{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px}
+.cam-frame{width:min(86vw,480px);aspect-ratio:1;position:relative;border-radius:16px}
+.cam-frame::before,.cam-frame::after,.cam-frame .cr1,.cam-frame .cr2{content:'';position:absolute;width:30px;height:30px;border-color:#fff;border-style:solid}
+.cam-frame::before{top:0;left:0;border-width:3px 0 0 3px;border-radius:14px 0 0 0}
+.cam-frame::after{top:0;right:0;border-width:3px 3px 0 0;border-radius:0 14px 0 0}
+.cam-frame .cr1{bottom:0;left:0;border-width:0 0 3px 3px;border-radius:0 0 0 14px}
+.cam-frame .cr2{bottom:0;right:0;border-width:0 3px 3px 0;border-radius:0 0 14px 0}
+.cam-hint{color:rgba(255,255,255,.8);font-size:14px;text-align:center;letter-spacing:.1px}
+.cam-bottom{display:flex;align-items:center;justify-content:space-around;padding:22px 40px max(env(safe-area-inset-bottom),28px);background:linear-gradient(to top,rgba(0,0,0,.68),transparent)}
+.cam-snap-btn{width:74px;height:74px;border-radius:50%;background:#fff;border:5px solid rgba(255,255,255,.35);display:flex;align-items:center;justify-content:center;cursor:pointer;transition:transform .1s,box-shadow .15s}
+.cam-snap-btn:hover{box-shadow:0 0 0 10px rgba(255,255,255,.18)}
+.cam-snap-btn:active{transform:scale(.92)}
+.cam-snap-btn svg{width:34px;height:34px}
+.cam-result-panel{position:absolute;inset:0;background:rgba(0,0,0,.9);z-index:4;display:none;flex-direction:column;align-items:center;justify-content:center;gap:22px;padding:28px 20px}
+.cam-result-panel.show{display:flex}
+.cam-result-panel img{width:min(88vw,340px);border-radius:12px;border:2px solid rgba(255,255,255,.25)}
+.cam-result-panel h3{margin:0;color:#fff;font-size:20px;text-align:center}
+.cam-pills{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;max-width:420px}
+.cam-pill{background:rgba(255,255,255,.1);border:1.5px solid rgba(255,255,255,.45);color:#fff;border-radius:999px;padding:10px 22px;font-weight:600;font-size:14px;cursor:pointer;transition:background .15s,border-color .15s}
+.cam-pill:hover{background:rgba(255,255,255,.25);border-color:#fff}
+.cam-retake-btn{border:1.5px solid rgba(255,255,255,.5);background:transparent;color:#fff;border-radius:8px;padding:11px 28px;font-weight:600;font-size:15px;cursor:pointer}
+.cam-retake-btn:hover{background:rgba(255,255,255,.12)}
+
+/* ====== MOBILE SEARCH BAR FIX ====== */
+@media(max-width:820px){
+  .sb{display:flex!important;height:46px!important;width:100%!important;flex:1 1 100%!important}
+  .sbi-wrap{display:flex!important;flex:1!important;height:100%!important;align-items:center!important;
+            background:#fff!important;border-radius:6px 0 0 6px!important;overflow:hidden!important;min-width:0!important}
+  .sbi-wrap input{flex:1!important;height:100%!important;border:0!important;background:transparent!important;
+                  padding:0 6px 0 12px!important;font-size:16px!important;min-width:0!important;color:#111!important}
+  .sb-divider{display:flex!important;width:1px!important;height:26px!important;background:#ccc!important;
+              flex:none!important;align-self:center!important}
+  .sb-icon-btn{display:flex!important;width:42px!important;height:100%!important;min-width:42px!important;
+               align-items:center!important;justify-content:center!important;flex:none!important;
+               border:0!important;background:transparent!important;color:#555!important;cursor:pointer!important}
+  .sb-icon-btn svg{width:20px!important;height:20px!important;display:block!important}
+  .sb-submit{display:flex!important;align-items:center!important;justify-content:center!important;
+             height:100%!important;padding:0 16px!important;flex:none!important;
+             border:0!important;border-radius:0 6px 6px 0!important;
+             background:var(--acc)!important;color:var(--onacc)!important;cursor:pointer!important}
+  .sb-submit svg{width:22px!important;height:22px!important;display:block!important}
+}
+@media(max-width:400px){
+  .sb-icon-btn{width:38px!important;min-width:38px!important}
+  .sb-submit{padding:0 13px!important}
+}
+
+  .sb-submit{ min-width:46px!important; padding:0 12px!important; }
+  .sbi-wrap input{ font-size:15px!important; }
+}
+
+
+
+/* ================================================================
+   MOBILE HEADER & SEARCH BAR — COMPLETE FIX
+   Root cause: margin-right:auto on .logo was eating all free space,
+   pushing .ac (Wishlist/Cart) onto separate rows.
+================================================================= */
+@media(max-width:820px){
+
+  /* ── Header inner: flex-wrap row layout ──────────────────── */
+  .in{
+    display:flex !important;
+    flex-wrap:wrap !important;
+    align-items:center !important;
+    padding:10px 14px 10px !important;
+    gap:0 !important;
+    row-gap:9px !important;
+  }
+
+  /* Logo: grows to fill row 1, but does NOT use margin-right:auto
+     (that was the bug). flex:1 lets .ac sit beside it. */
+  a.logo{
+    flex:1 1 auto !important;
+    order:1 !important;
+    margin-right:0 !important;   /* FIX: kill the old margin-right:auto */
+    font-size:21px !important;
+    line-height:1 !important;
+  }
+
+  /* Wishlist + Cart: stay on row 1, right of logo */
+  nav.ac{
+    flex:0 0 auto !important;
+    order:2 !important;
+    display:flex !important;
+    flex-direction:row !important;
+    flex-wrap:nowrap !important;
+    align-items:center !important;
+    gap:18px !important;
+  }
+  nav.ac a.ho{ display:none !important; }      /* hide Orders */
+  nav.ac a small{ display:none !important; }   /* hide sub-labels */
+  nav.ac a{
+    display:flex !important;
+    flex-direction:row !important;
+    align-items:center !important;
+    gap:4px !important;
+    white-space:nowrap !important;
+    font-size:14px !important;
+  }
+
+  /* ── Search bar: full-width row 2 ────────────────────────── */
+  div.sb{
+    flex:0 0 100% !important;
+    order:3 !important;
+    display:flex !important;
+    flex-direction:row !important;
+    height:50px !important;
+    width:100% !important;
+    min-width:0 !important;
+    margin:0 !important;
+  }
+
+  /* White pill: input + mic + camera */
+  .sbi-wrap{
+    display:flex !important;
+    flex-direction:row !important;
+    flex:1 1 auto !important;
+    min-width:0 !important;
+    height:100% !important;
+    align-items:center !important;
+    background:#fff !important;
+    border-radius:8px 0 0 8px !important;
+    overflow:hidden !important;
+  }
+
+  /* Text input */
+  .sbi-wrap input{
+    flex:1 1 auto !important;
+    min-width:0 !important;
+    height:100% !important;
+    border:0 !important;
+    background:transparent !important;
+    padding:0 0 0 14px !important;
+    font-size:16px !important;   /* 16px stops iOS autozoom */
+    color:#111 !important;
+    -webkit-appearance:none !important;
+  }
+
+  /* Thin divider lines */
+  .sb-divider{
+    display:block !important;
+    width:1px !important;
+    height:26px !important;
+    background:#ddd !important;
+    flex:0 0 1px !important;
+    align-self:center !important;
+    margin:0 !important;
+  }
+
+  /* Mic & Camera icon buttons — 48 px tap target */
+  .sb-icon-btn{
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    flex:0 0 48px !important;
+    width:48px !important;
+    height:100% !important;
+    border:0 !important;
+    padding:0 !important;
+    margin:0 !important;
+    background:transparent !important;
+    color:#555 !important;
+    cursor:pointer !important;
+    -webkit-tap-highlight-color:rgba(0,0,0,.08) !important;
+  }
+  .sb-icon-btn svg{
+    width:21px !important;
+    height:21px !important;
+    display:block !important;
+    pointer-events:none !important;
+    flex:none !important;
+  }
+
+  /* Amber search/submit button */
+  .sb-submit{
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    flex:0 0 52px !important;
+    width:52px !important;
+    height:100% !important;
+    padding:0 !important;
+    margin:0 !important;
+    border:0 !important;
+    border-radius:0 8px 8px 0 !important;
+    background:var(--acc) !important;
+    color:var(--onacc) !important;
+    cursor:pointer !important;
+  }
+  .sb-submit svg{
+    width:22px !important;
+    height:22px !important;
+    display:block !important;
+    flex:none !important;
+  }
+
+  /* Autocomplete dropdown */
+  #sgb{ top:50px !important; }
+}
+
+/* Extra-small phones (≤ 360px) */
+@media(max-width:360px){
+  div.sb{ height:46px !important; }
+  .sb-icon-btn{ flex-basis:43px !important; width:43px !important; }
+  .sb-submit{ flex-basis:46px !important; width:46px !important; }
+}
+
+/* ── hdr-top: logo + nav always on same row ─────────────────────────── */
+.hdr-top{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:100%;
+  gap:12px;
+}
+.hdr-top .logo{ flex:1 1 auto; margin-right:0; }
+.hdr-top nav.ac{
+  flex:0 0 auto;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  align-items:center;
+  gap:16px;
+}
+/* On desktop .in is still flex-wrap; hdr-top is always full-width row 1 */
+.in{ flex-direction:column; }
+@media(min-width:821px){
+  .in{ flex-direction:row; flex-wrap:nowrap; align-items:center; }
+  .hdr-top{ flex:0 0 auto; width:auto; }
+  .hdr-top .logo{ min-width:160px; }
+}
+
+/* ── Mobile: clean 2-row header ─────────────────────────────────────── */
+@media(max-width:820px){
+  .in{
+    display:flex !important;
+    flex-direction:column !important;
+    padding:10px 14px 10px !important;
+    gap:8px !important;
+    align-items:stretch !important;
+  }
+  .hdr-top{
+    width:100% !important;
+    justify-content:space-between !important;
+  }
+  a.logo{
+    font-size:21px !important;
+    margin-right:0 !important;
+  }
+  nav.ac a.ho{ display:none !important; }
+  nav.ac a small{ display:none !important; }
+  nav.ac a{ font-size:14px !important; white-space:nowrap !important; }
+
+  /* Search bar: full-width, fixed 50px height */
+  div.sb{
+    display:flex !important;
+    flex-direction:row !important;
+    width:100% !important;
+    height:50px !important;
+    flex:none !important;
+    order:unset !important;
+    margin:0 !important;
+    min-width:0 !important;
+  }
+
+  /* White pill */
+  .sbi-wrap{
+    display:flex !important;
+    flex-direction:row !important;
+    flex:1 1 auto !important;
+    min-width:0 !important;
+    height:100% !important;
+    align-items:center !important;
+    background:#fff !important;
+    border-radius:8px 0 0 8px !important;
+    overflow:hidden !important;
+  }
+  .sbi-wrap input{
+    flex:1 1 auto !important;
+    min-width:0 !important;
+    height:100% !important;
+    border:0 !important;
+    background:transparent !important;
+    padding:0 2px 0 12px !important;
+    font-size:16px !important;
+    color:#111 !important;
+  }
+
+  /* Dividers */
+  .sb-divider{
+    display:block !important;
+    width:1px !important;
+    height:26px !important;
+    background:#ddd !important;
+    flex:0 0 1px !important;
+    align-self:center !important;
+  }
+
+  /* Mic & Camera: 48px tap targets */
+  .sb-icon-btn{
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    flex:0 0 48px !important;
+    width:48px !important;
+    height:100% !important;
+    border:0 !important;
+    padding:0 !important;
+    background:transparent !important;
+    color:#555 !important;
+    cursor:pointer !important;
+  }
+  .sb-icon-btn svg{
+    width:21px !important; height:21px !important;
+    display:block !important; pointer-events:none !important;
+  }
+
+  /* Amber search button */
+  .sb-submit{
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    flex:0 0 52px !important;
+    width:52px !important;
+    height:100% !important;
+    padding:0 !important;
+    border:0 !important;
+    border-radius:0 8px 8px 0 !important;
+    background:var(--acc) !important;
+    color:var(--onacc) !important;
+    cursor:pointer !important;
+  }
+  .sb-submit svg{ width:22px !important; height:22px !important; display:block !important; }
+
+  #sgb{ top:50px !important; }
+}
+@media(max-width:360px){
+  .sb-icon-btn{ flex:0 0 43px !important; width:43px !important; }
+  .sb-submit{ flex:0 0 46px !important; width:46px !important; }
+  div.sb{ height:46px !important; }
+}
+
+/* Desktop: keep original .in row layout */
+@media(min-width:821px){
+  .in > div:first-child > a.logo{ margin-right:auto; }
+  .in > div:first-child > div{ gap:16px; }
+  .in > div.sb{ margin-top:0; }
+}
+.kf{margin:0;padding-left:20px;max-width:70ch}.kf li{margin:6px 0}
+</style></head><body>
+<div class="strip">Free home delivery in Shivamogga. Orders above ₹4,999 ship free across India.</div>
+<header><div class="in">
+  <!-- ROW 1: Logo + Nav -->
+  <div style="display:flex;flex-direction:row;flex-wrap:nowrap;align-items:center;justify-content:space-between;width:100%;">
+    <a class="logo" href="#/">Malnad<b>Sports</b></a>
+    <div style="display:flex;flex-direction:row;flex-wrap:nowrap;align-items:center;gap:14px;">
+      <a href="#/wish" style="display:flex;flex-direction:row;align-items:center;gap:5px;font-weight:700;font-size:14px;color:#fff;text-decoration:none;white-space:nowrap;">&#10084; Wishlist<span id="wc" style="background:#ffc107;color:#1d1500;border-radius:9px;padding:0 5px;font-size:12px;margin-left:2px;">0</span></a>
+      <a href="#/cart" class="ct" style="display:flex;flex-direction:row;align-items:center;gap:5px;font-weight:700;font-size:14px;color:#fff;text-decoration:none;white-space:nowrap;"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.5 12h11L21 7H6"/></svg>Cart<span id="cc" style="background:#ffc107;color:#1d1500;border-radius:9px;padding:0 5px;font-size:12px;margin-left:2px;">0</span></a>
+    </div>
+  </div>
+  <!-- ROW 2: Search bar -->
+  <div class="sb" data-enter style="display:flex;flex-direction:row;width:100%;height:50px;margin-top:8px;">
+    <div class="sbi-wrap" style="display:flex;flex-direction:row;flex:1 1 auto;min-width:0;height:100%;align-items:center;background:#fff;border-radius:8px 0 0 8px;overflow:hidden;">
+      <input id="q" oninput="sug()" onfocus="sug()" placeholder="Search bats, shoes, rackets…" aria-label="Search" autocomplete="off" style="flex:1 1 auto;min-width:0;height:100%;border:0;background:transparent;padding:0 4px 0 14px;font-size:16px;color:#111;">
+      <datalist id="sg"></datalist>
+      <div id="sgb" class="sgb" hidden></div>
+      <span style="display:block;width:1px;height:26px;background:#ddd;flex:none;align-self:center;"></span>
+      <button type="button" id="mic-btn" aria-label="Voice search" title="Search by voice" onclick="openVoice()" style="display:flex;align-items:center;justify-content:center;width:50px;min-width:50px;height:100%;border:0;background:transparent;cursor:pointer;color:#555;flex:none;padding:0;">
+        <svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0M12 19v3M8 22h8"/></svg>
+      </button>
+      <span style="display:block;width:1px;height:26px;background:#ddd;flex:none;align-self:center;"></span>
+      <button type="button" id="cam-btn" aria-label="Image search" title="Search by image" onclick="openCamera()" style="display:flex;align-items:center;justify-content:center;width:50px;min-width:50px;height:100%;border:0;background:transparent;cursor:pointer;color:#555;flex:none;padding:0;">
+        <svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+      </button>
+    </div>
+    <button type="button" onclick="srch()" class="sb-submit" aria-label="Search" style="display:flex;align-items:center;justify-content:center;flex:0 0 54px;width:54px;height:100%;border:0;border-radius:0 8px 8px 0;background:var(--acc);color:var(--onacc);cursor:pointer;padding:0;">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+    </button>
+  </div>
+</div>
+</div>
+<div class="sub"><nav class="cats" id="cn"></nav></div></header>
+<main id="app"></main><footer id="ft"></footer><nav class="bn" id="bn" aria-label="Main navigation"><a href="#/" data-k="home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>Home</a><a href="#/shop" data-k="shop"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>Shop</a><a href="#/wish" data-k="wish"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-8-5.2-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 5.8-8 11-8 11z"/></svg>Wishlist<i id="bw2"></i></a><a href="#/cart" data-k="cart"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.5 12h11L21 7H6"/></svg>Cart<i id="bc2"></i></a><a href="#/orders" data-k="orders"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7l9-4 9 4v10l-9 4-9-4z"/><path d="M3 7l9 4 9-4M12 11v10"/></svg>Orders</a></nav><div id="toast" role="status"></div><div id="ov"></div>
+<script>
+const RAW=`1|Kashmir Willow Cricket Bat|Cricket|Ridgeway|2499|3199|4.5|312|14|Short Handle,Long Handle+200|best
+2|Leather Cricket Balls, Pack of 6|Cricket|Ridgeway|1450|1800|4.3|188|40|Red,White|trend
+3|Batting Gloves|Cricket|Apex|1199|1599|4.2|97|22|Youth,Men Left,Men Right|new
+4|Cricket Helmet with Steel Grille|Cricket|Apex|2899|3600|4.6|64|9|M,L,XL|best
+5|Cricket Kit Bag|Sports Bags|Ridgeway|1799|2399|4.1|51|18|Standard|
+6|Match Football|Football|Kickline|899|1199|4.4|240|30|Size 4,Size 5|best
+7|Football Boots|Football|Kickline|3299|4599|4.5|120|16|UK 7,UK 8,UK 9,UK 10|trend
+8|Goalkeeper Gloves|Football|Apex|1499|1999|4.2|44|12|Size 7,Size 8,Size 9|new
+9|Graphite Badminton Racket|Badminton|Aerolite|1799|2499|4.6|410|20|3U,4U|best
+10|Feather Shuttlecocks, Tube of 12|Badminton|Aerolite|1250|1450|4.4|290|60|Medium,Fast|trend
+11|Badminton Court Shoes|Badminton|Stridepro|2599|3499|4.3|83|14|UK 7,UK 8,UK 9|
+12|Table Tennis Bat|Table Tennis|Spinwell|749|999|4.3|130|25|Standard,Pro+400|new
+13|Table Tennis Balls, Pack of 6|Table Tennis|Spinwell|399|499|4.5|75|50|3 Star|
+14|Match Volleyball|Volleyball|Netcrest|799|999|4.2|90|20|Size 4,Size 5|
+15|Volleyball Knee Pads, Pair|Volleyball|Netcrest|649|899|4.1|38|26|S,M,L|new
+16|Indoor Outdoor Basketball|Basketball|Hoopline|1299|1699|4.4|160|18|Size 6,Size 7|best
+17|Basketball Shoes|Basketball|Stridepro|3999|5499|4.3|55|10|UK 8,UK 9,UK 10|
+18|Anti-Slip Yoga Mat|Fitness|Corefit|699|999|4.3|520|40|6 mm,8 mm+150|trend
+19|Adjustable Dumbbell Set|Dumbbells|Corefit|3499|4499|4.4|140|9|10 kg,20 kg+1200|best
+20|Resistance Bands, Set of 5|Fitness|Corefit|549|899|4.2|210|35|Standard|new
+21|Boxing Gloves|Boxing|Ironhand|1599|2199|4.4|72|16|10 oz,12 oz,14 oz|
+22|Heavy Punching Bag, Filled|Boxing|Ironhand|3299|4299|4.1|29|6|3 ft,4 ft+800|
+23|Carrom Board with Coins|Other Sports|Gamecraft|2199|2799|4.5|98|11|Standard,Tournament+900|trend
+24|Tennis Racket|Other Sports|Gamecraft|2799|3699|4.3|47|8|Grip 2,Grip 3|
+25|Running Shoes|Shoes|Stridepro|3499|4999|4.5|260|20|UK 7,UK 8,UK 9,UK 10|best
+26|Insulated Sports Bottle|Accessories|Trackline|599|799|4.4|180|45|750 ml,1 L+100|
+27|Dry-Fit Sports T-Shirt|Accessories|Trackline|799|1299|4.2|110|30|S,M,L,XL|new
+28|Tennis Balls, Can of 3|Tennis|Gamecraft|499|650|0|0|30|Standard|
+29|Hockey Stick|Hockey|Gamecraft|1499|1999|0|0|14|36 in,37 in|
+30|Kabaddi Shoes|Kabaddi|Stridepro|1299|1799|0|0|12|UK 7,UK 8,UK 9|
+31|Kho Kho Poles, Set of 2|Kho Kho|Gamecraft|1999|2499|0|0|8|Standard|
+32|Throwball|Throwball|Netcrest|599|799|0|0|20|Standard|
+33|Inline Skates|Skating|Stridepro|2999|3999|0|0|10|Size 6,Size 7,Size 8|
+34|Swimming Goggles|Swimming|Aquaedge|499|699|0|0|25|Standard|
+35|Cycling Helmet|Cycling|Trackline|1299|1799|0|0|12|M,L|
+36|Running Spikes|Athletics|Stridepro|2499|3299|0|0|10|UK 7,UK 8,UK 9|
+37|Wooden Chess Set|Chess|Gamecraft|799|1099|0|0|15|Standard|
+38|Cork Yoga Block, Pair|Yoga|Corefit|699|999|0|0|20|Standard|
+39|Archery Practice Bow|Archery|Gamecraft|3499|4499|0|0|5|Standard|
+40|Squash Racket|Squash|Aerolite|1999|2699|0|0|9|Standard|
+41|Golf Putter|Golf|Gamecraft|2999|3999|0|0|6|Standard|
+42|Rugby Ball|Rugby|Kickline|1199|1599|0|0|10|Size 4,Size 5|
+43|Baseball Bat and Ball Set|Baseball|Hoopline|1499|1999|0|0|8|Standard|
+44|Karate Uniform (Gi)|Karate|Ironhand|1299|1799|0|0|15|Child,Adult|
+45|Rubber Hex Dumbbell, Pair|Dumbbells|Ironhand|899|1299|0|0|25|2 kg,5 kg+600,10 kg+1500,15 kg+2600|best
+46|Neoprene Coated Dumbbell, Pair|Dumbbells|Corefit|499|799|0|0|40|1 kg,2 kg+200,3 kg+400,5 kg+800|trend
+47|Cast Iron Dumbbell, Pair|Dumbbells|Ironhand|749|1099|0|0|18|5 kg,10 kg+900,15 kg+1800,20 kg+2800|
+48|Adjustable Spinlock Dumbbell Rods, Pair (Plates Included)|Dumbbells|Corefit|1899|2799|0|0|12|10 kg,20 kg+1100|new
+49|Home Gym Barbell Rod with Plates Set|Gym Items|Ironhand|3299|4499|0|0|10|20 kg,30 kg+1700,50 kg+4200|best
+50|Adjustable Flat Incline Weight Bench|Gym Items|Corefit|4999|6999|0|0|7|Standard|trend
+51|Push-Up Bars, Pair|Gym Items|Corefit|399|699|0|0|35|Standard|new
+52|Ab Roller with Knee Mat|Gym Items|Corefit|449|799|0|0|30|Standard|
+53|Doorway Pull-Up Bar|Gym Items|Ironhand|899|1399|0|0|14|Standard|
+54|Cast Iron Kettlebell|Gym Items|Ironhand|699|999|0|0|20|4 kg,8 kg+700,12 kg+1400,16 kg+2100|trend
+55|Gym Gloves with Wrist Support|Gym Items|Trackline|449|699|0|0|40|S,M,L,XL|new
+56|Padded Weightlifting Belt|Gym Items|Ironhand|999|1599|0|0|12|M,L,XL|
+57|Speed Skipping Rope, Ball Bearing|Gym Items|Trackline|249|449|0|0|60|Standard|best
+58|Dumbbell Rack, 3-Tier|Gym Items|Corefit|2999|4299|0|0|6|Standard|
+59|Wooden Cricket Stumps Set with Bails|Cricket|Ridgeway|799|1099|0|0|20|Full Size,Junior|
+60|Batting Pads, Pair (Leg Guards)|Cricket|Apex|1499|2099|0|0|14|Youth,Men Left,Men Right|best
+61|Wicket Keeping Gloves|Cricket|Apex|1299|1799|0|0|10|Youth,Men|new
+62|Abdomen Guard with Supporter|Cricket|Apex|449|699|0|0|25|Youth,Men|
+63|Heavy Tennis Cricket Bat|Cricket|Ridgeway|899|1399|0|0|22|Short Handle,Long Handle+100|trend
+64|Cricket Bat Grips, Pack of 3|Cricket|Ridgeway|199|299|0|0|60|Standard|
+65|Football Shin Guards, Pair|Football|Kickline|399|649|0|0|30|S,M,L|
+66|Rubber Moulded Football|Football|Kickline|549|799|0|0|35|Size 3,Size 4,Size 5|trend
+67|Ball Pump with 3 Needles|Football|Kickline|299|499|0|0|40|Standard|
+68|Training Cones, Set of 20|Football|Kickline|349|599|0|0|30|Standard|new
+69|Volleyball Net, Tournament Size|Volleyball|Netcrest|1499|2199|0|0|10|Standard|
+70|Soft Touch Training Volleyball|Volleyball|Netcrest|649|899|0|0|22|Size 4,Size 5|best
+71|Volleyball Arm Sleeves, Pair|Volleyball|Netcrest|349|599|0|0|25|S,M,L|new
+72|Throwball Net, Tournament|Throwball|Netcrest|1399|1999|0|0|8|Standard|
+73|Match Throwball, Synthetic Leather|Throwball|Netcrest|749|999|0|0|18|Standard|new
+74|Throwball Wrist Bands, Pair|Throwball|Netcrest|199|299|0|0|40|Standard|
+75|Graphite Tennis Racket Pro|Tennis|Gamecraft|2299|3199|0|0|9|Grip 2,Grip 3,Grip 4|best
+76|Tennis Overgrips, Pack of 3|Tennis|Gamecraft|249|399|0|0|50|Standard|
+77|Tennis Balls, Pack of 6|Tennis|Gamecraft|899|1199|0|0|25|Standard|
+78|Badminton Combo Kit (2 Rackets, 3 Shuttles, Bag)|Badminton|Aerolite|1499|2299|0|0|15|Standard|best
+79|Badminton Net, Tournament|Badminton|Aerolite|899|1299|0|0|12|Standard|
+80|Racket Grip Tape, Pack of 5|Badminton|Aerolite|249|399|0|0|50|Standard|
+81|Nylon Shuttlecocks, Tube of 6|Badminton|Aerolite|349|499|0|0|45|Medium,Fast|
+82|Kids Cricket Kit (Bat, Ball, 3 Stumps)|Kids Sports|Malnad Kids|599|899|0|0|20|Size 3,Size 4,Size 5|best
+83|Kids Football, Size 3|Kids Sports|Kickline|399|599|0|0|30|Standard|
+84|Kids Badminton Set (2 Rackets, 2 Shuttles)|Kids Sports|Aerolite|449|699|0|0|25|Standard|new
+85|Kids Basketball Hoop Set|Kids Sports|Hoopline|1299|1899|0|0|8|Standard|
+86|Kids Running Shoes|Kids Sports|Stridepro|999|1599|0|0|20|UK 1,UK 2,UK 3,UK 4|
+87|Kids Skipping Rope, Colour Handles|Kids Sports|Malnad Kids|149|249|0|0|50|Standard|
+88|Sack Race Bags, Pair|Kids Sports|Malnad Kids|249|399|0|0|20|Standard|new
+89|Kids Frisbee and Ring Toss Set|Kids Sports|Malnad Kids|299|499|0|0|25|Standard|
+90|Junior Tennis Racket|Kids Sports|Gamecraft|599|899|0|0|15|19 in,21 in,23 in|
+91|Cricket Rubber Spike Shoes|Shoes|Stridepro|1999|2899|0|0|12|UK 7,UK 8,UK 9,UK 10|
+92|Gym Training Shoes|Shoes|Stridepro|2499|3499|0|0|15|UK 7,UK 8,UK 9,UK 10|new
+93|Lightweight Walking Shoes|Shoes|Stridepro|1299|1899|0|0|25|UK 6,UK 7,UK 8,UK 9,UK 10|trend
+94|Court Shoes for Volleyball and Throwball|Shoes|Stridepro|2299|3199|0|0|10|UK 6,UK 7,UK 8,UK 9|
+95|Women's Running Shoes|Shoes|Stridepro|2999|4299|0|0|14|UK 4,UK 5,UK 6,UK 7|
+96|Ankle Sports Socks, Pack of 3|Socks|Trackline|299|499|0|0|60|S,M,L|best
+97|Crew Cotton Sports Socks, Pack of 3|Socks|Trackline|349|549|0|0|50|S,M,L|
+98|Football Stockings, Knee High, Pair|Socks|Kickline|249|399|0|0|40|Junior,Senior|
+99|Cricket White Socks, Pack of 3|Socks|Ridgeway|349|549|0|0|35|Standard|
+100|Compression Sports Socks, Pair|Socks|Corefit|499|799|0|0|25|M,L|new
+101|No-Show Gym Socks, Pack of 5|Socks|Trackline|399|649|0|0|45|S,M,L|
+102|Gym Duffle Bag with Shoe Compartment|Sports Bags|Trackline|999|1599|0|0|18|Standard|best
+103|Sports Backpack, Water-Resistant|Sports Bags|Trackline|899|1399|0|0|22|Standard|
+104|Badminton Kit Bag, 3 Compartment|Sports Bags|Aerolite|899|1399|0|0|12|Standard|
+105|Ball Carry Net Bag, 5 Balls|Sports Bags|Kickline|399|649|0|0|25|Standard|
+106|Drawstring Sports Sack|Sports Bags|Trackline|199|349|0|0|50|Standard|new`;
+const BASE=RAW.split("\n").map(r=>{const a=r.split("|");return{id:+a[0],name:a[1],cat:a[2],brand:a[3],price:+a[4],mrp:+a[5],rating:+a[6],rev:+a[7],stock:+a[8],v:a[9].split(",").map(s=>{const[l,x]=s.split("+");return{l,a:+x||0}}),tag:a[10]||""}});
+const H={Cricket:25,Football:140,Badminton:200,"Table Tennis":340,Volleyball:45,Basketball:15,Fitness:170,Boxing:355,"Other Sports":270,Accessories:215,Tennis:75,Hockey:100,Kabaddi:5,"Kho Kho":320,Throwball:185,Skating:245,Swimming:195,Cycling:130,Athletics:55,Chess:285,Yoga:300,Archery:35,Squash:160,Golf:115,Rugby:20,Baseball:225,Karate:350,Dumbbells:0,"Gym Items":330,"Kids Sports":60,Shoes:210,Socks:290,"Sports Bags":30};
+const ORD=["Cricket","Football","Volleyball","Throwball","Tennis","Badminton","Dumbbells","Gym Items","Kids Sports","Shoes","Socks","Sports Bags","Table Tennis","Basketball","Fitness","Boxing","Other Sports","Accessories"];
+const CO=()=>{const k=Object.keys(H);return ORD.filter(c=>k.includes(c)).concat(k.filter(c=>!ORD.includes(c)))};
+Object.keys(H).filter(c=>!["Accessories","Other Sports","Dumbbells","Gym Items","Kids Sports","Shoes","Socks","Sports Bags"].includes(c)).forEach((c,i)=>BASE.push({id:200+i,name:c+" Team Kit (Jersey and Shorts)",cat:c,brand:"Malnad Kits",price:999+(i%5)*200,mrp:1499+(i%5)*250,rating:0,rev:0,stock:20,v:[{l:"S",a:0},{l:"M",a:0},{l:"L",a:0},{l:"XL",a:0}],tag:""}));
+let P=[];
+const FT={"45": {"f": ["Hexagonal heads that do not roll and stack neatly", "Knurled chrome handle for a firm, non-slip grip", "Rubber-coated heads protect floors and cut noise", "Sold as a pair; weight shown is per dumbbell"], "s": [["Material", "Steel handle, rubber-coated cast iron head"], ["Grip", "Knurled chrome"], ["Sold as", "Pair"], ["Best for", "Strength training at home or gym"]]}, "46": {"f": ["Soft neoprene coat is comfortable and absorbs sweat", "Colour-coded by weight so you pick the right pair fast", "Non-slip surface for aerobics, toning and rehab", "Compact and light, good for beginners"], "s": [["Material", "Neoprene over cast iron"], ["Weights", "1 to 5 kg each"], ["Sold as", "Pair"], ["Best for", "Aerobics, toning, rehab"]]}, "47": {"f": ["Solid cast iron for heavy lifting", "Textured handle for sweat-proof grip", "Powder-coated finish resists rust", "Fixed weight with no loose parts"], "s": [["Material", "Cast iron"], ["Finish", "Black powder coat"], ["Sold as", "Pair"], ["Best for", "Heavy strength sets"]]}, "48": {"f": ["Spinlock collars let you add or remove plates in seconds", "PVC-coated plates protect the floor", "Grow your weights as you get stronger", "Includes rods, plates and collars"], "s": [["Material", "Steel rods, PVC plates"], ["Includes", "2 rods, plates, 4 collars"], ["Best for", "Progressive training"]]}, "49": {"f": ["5 ft straight rod with knurled grip and spinlock collars", "PVC-coated plates protect the floor", "Suits squats, bench press, deadlifts and curls", "Complete set: rod, plates and collars"], "s": [["Rod length", "5 ft"], ["Material", "Chrome steel rod, PVC plates"], ["Includes", "Rod, plates, 2 collars"], ["Best for", "Home gym"]]}, "50": {"f": ["Backrest adjusts for flat, incline and decline presses", "High-density foam padding with leatherette cover", "Heavy-duty steel frame for stability", "Pairs with dumbbells and barbell sets"], "s": [["Frame", "Heavy-duty steel"], ["Positions", "Flat, incline, decline"], ["Padding", "High-density foam"], ["Best for", "Bench press, dumbbell work"]]}, "51": {"f": ["Raised grips reduce wrist strain", "Anti-slip rubber base keeps them steady", "Foam handles are comfortable and sweat-friendly", "Light enough to carry in a bag"], "s": [["Material", "Steel with foam grips"], ["Base", "Anti-slip rubber"], ["Sold as", "Pair"], ["Best for", "Push-ups, core work"]]}, "52": {"f": ["Wide wheel with rubber tread for stable rolling", "Foam handles for a secure grip", "Knee mat included for comfort", "Works abs, shoulders and back"], "s": [["Wheel", "Wide, rubber tread"], ["Handle", "Foam"], ["Includes", "Knee mat"], ["Best for", "Core strength"]]}, "53": {"f": ["Fits standard door frames, no drilling", "Padded grips with multiple hand positions", "Pull-ups, chin-ups and hanging leg raises", "Sturdy steel build"], "s": [["Material", "Steel with foam grips"], ["Mounting", "Door frame, no drilling"], ["Best for", "Upper body strength"]]}, "54": {"f": ["Wide handle fits one or two hands", "Flat base stays stable on the floor", "Smooth finish protects your palms", "Swings, goblet squats, presses and snatches"], "s": [["Material", "Cast iron"], ["Handle", "Wide, smooth grip"], ["Sold as", "Single"], ["Best for", "Strength and conditioning"]]}, "55": {"f": ["Padded palm reduces blisters and calluses", "Wrap-around wrist strap for support", "Breathable mesh back keeps hands cool", "Anti-slip grip for weights and bars"], "s": [["Material", "Breathable mesh, synthetic leather"], ["Support", "Wrist strap"], ["Sold as", "Pair"], ["Best for", "Lifting, pull-ups"]]}, "56": {"f": ["Firm back support during heavy lifts", "Quick-adjust velcro closure", "Wider back panel with foam padding", "Suits squats and deadlifts"], "s": [["Material", "Neoprene, foam"], ["Closure", "Velcro"], ["Best for", "Heavy compound lifts"]]}, "57": {"f": ["Ball-bearing handles for smooth, fast spin", "Length adjusts to your height", "Coated steel cable lasts longer", "Foam grips for sweaty hands"], "s": [["Cable", "PVC-coated steel"], ["Length", "Adjustable"], ["Best for", "Cardio, boxing warm-up"]]}, "58": {"f": ["Three tiers keep dumbbells organised", "Rubber feet protect the floor", "Welded steel frame", "Saves floor space in a home gym"], "s": [["Material", "Steel"], ["Tiers", "3"], ["Best for", "Dumbbell storage"]]}, "59": {"f": ["3 stumps and 2 bails in one set", "Seasoned wood that lasts through practice", "Pointed bases push easily into the ground", "Full and junior sizes"], "s": [["Material", "Seasoned wood"], ["Includes", "3 stumps, 2 bails"], ["Sizes", "Full, Junior"]]}, "60": {"f": ["High-density foam for shock absorption", "Tough fabric cover with PU facing", "Adjustable velcro straps for a secure fit", "Knee roll for comfort while batting"], "s": [["Material", "PU, foam"], ["Closure", "Velcro straps"], ["Sold as", "Pair"], ["Sizes", "Youth, Men"]]}, "61": {"f": ["Padded palm for safe, secure catching", "Wrist strap for a snug fit", "Ventilated back keeps hands cool", "Reinforced fingers for durability"], "s": [["Material", "Leather-look palm, mesh back"], ["Sold as", "Pair"], ["Sizes", "Youth, Men"]]}, "62": {"f": ["Hard shell protects the abdomen", "Soft inner padding for comfort", "Elastic supporter holds it in place", "Required safety gear for match play"], "s": [["Material", "Impact shell, soft lining"], ["Includes", "Supporter"], ["Sizes", "Youth, Men"]]}, "63": {"f": ["Built for tennis ball cricket", "Strong wooden blade for powerful hitting", "Cane handle with rubber grip", "Edge tape against scuffs"], "s": [["Material", "Poplar wood blade, cane handle"], ["Ball type", "Tennis"], ["Best for", "Street and tournament tennis cricket"]]}, "64": {"f": ["Cushioned rubber grip for a firm hold", "Easy to fit on any standard handle", "Absorbs vibration on impact", "Pack of 3 in assorted colours"], "s": [["Material", "Rubber"], ["Pack", "3 grips"], ["Fits", "Standard bat handles"]]}, "65": {"f": ["Hard shell absorbs impact", "Soft foam backing for comfort", "Slip-in design with ankle protection", "Light and breathable"], "s": [["Material", "PP shell, EVA foam"], ["Sold as", "Pair"], ["Sizes", "S, M, L"]]}, "66": {"f": ["Moulded rubber stays round on rough ground", "Durable cover for street and ground play", "Strong bladder holds air longer", "Sizes for kids to adults"], "s": [["Material", "Moulded rubber"], ["Sizes", "3, 4, 5"], ["Best for", "Practice and street play"]]}, "67": {"f": ["Inflates football, volleyball, basketball and throwball", "Three needles included", "Dual-action pumping is quick", "Compact, easy to carry"], "s": [["Includes", "Pump, 3 needles"], ["Works with", "Most sports balls"], ["Material", "Plastic and metal"]]}, "68": {"f": ["Bright colours stay visible on the ground", "Flexible, stack for storage", "Drills for football, cricket and athletics", "Set of 20"], "s": [["Material", "Flexible PVC"], ["Pack", "20 cones"], ["Best for", "Drills and agility"]]}, "69": {"f": ["Full-size net with strong mesh", "Reinforced top tape", "Cables and ties included", "Suits school and club courts"], "s": [["Material", "Nylon mesh"], ["Size", "Standard court"], ["Includes", "Cables, ties"]]}, "70": {"f": ["Soft cover is gentle on forearms", "Machine-stitched for durability", "Consistent bounce and flight", "Great for training and beginners"], "s": [["Material", "Synthetic leather"], ["Sizes", "4, 5"], ["Best for", "Practice"]]}, "71": {"f": ["Padded forearm protects during digs", "Stretch fabric stays in place", "Breathable and sweat-wicking", "Sold as a pair"], "s": [["Material", "Stretch polyester, foam"], ["Sold as", "Pair"], ["Sizes", "S, M, L"]]}, "72": {"f": ["Strong mesh for tournament play", "Reinforced edges", "Cables included", "Suits school and college courts"], "s": [["Material", "Nylon mesh"], ["Includes", "Cables"], ["Best for", "Tournament courts"]]}, "73": {"f": ["Synthetic leather for a good grip", "Sized for match play", "Holds shape through use", "Even bounce and flight"], "s": [["Material", "Synthetic leather"], ["Sport", "Throwball"], ["Best for", "Matches and practice"]]}, "74": {"f": ["Absorb sweat during play", "Soft stretch cotton", "Fits most wrists", "Sold as a pair"], "s": [["Material", "Stretch cotton"], ["Sold as", "Pair"], ["Fit", "Free size"]]}, "75": {"f": ["Lightweight graphite frame for control and power", "Comfortable cushioned grip", "Strung and ready to play", "Suits club and intermediate players"], "s": [["Frame", "Graphite"], ["Strings", "Pre-strung"], ["Grip sizes", "2, 3, 4"], ["Level", "Club and intermediate"]]}, "76": {"f": ["Tacky surface for secure grip", "Absorbs sweat", "Easy to wrap on any racket", "Pack of 3"], "s": [["Material", "Tacky PU"], ["Pack", "3"], ["Fits", "Tennis rackets"]]}, "77": {"f": ["Consistent bounce for practice", "Durable felt", "Pressurised for play", "Pack of 6"], "s": [["Pack", "6 balls"], ["Type", "Practice"], ["Felt", "Durable"]]}, "78": {"f": ["Two rackets, three shuttlecocks and a carry bag", "Light aluminium frames easy for beginners", "Good value for families and friends", "Ready to play out of the box"], "s": [["Includes", "2 rackets, 3 shuttles, bag"], ["Frame", "Aluminium"], ["Level", "Beginner and recreational"]]}, "79": {"f": ["Standard-size net", "Strong nylon mesh", "Reinforced top tape", "Cord included"], "s": [["Material", "Nylon"], ["Size", "Standard court"], ["Includes", "Cord"]]}, "80": {"f": ["Tacky grip that soaks up sweat", "Easy to wrap", "Works on badminton and tennis rackets", "Pack of 5"], "s": [["Pack", "5 rolls"], ["Material", "PU"], ["Fits", "Most rackets"]]}, "81": {"f": ["Durable nylon skirt lasts longer than feather", "Stable flight", "Cork-style base", "Great for daily practice"], "s": [["Pack", "6"], ["Material", "Nylon"], ["Speed", "Medium or Fast"]]}, "82": {"f": ["Complete starter set for young players", "Light bat suited to kids", "Soft ball for safe play", "Stumps included"], "s": [["Includes", "Bat, ball, 3 stumps"], ["Sizes", "3, 4, 5"], ["Age", "5 to 12 years"]]}, "83": {"f": ["Size 3 for young players", "Soft touch cover", "Machine-stitched", "Bright colours"], "s": [["Size", "3"], ["Age", "5 to 8 years"], ["Material", "Synthetic"]]}, "84": {"f": ["Light rackets for small hands", "Two shuttlecocks included", "Safe for garden and indoor play", "Easy to learn"], "s": [["Includes", "2 rackets, 2 shuttles"], ["Age", "5 to 10 years"], ["Material", "Aluminium"]]}, "85": {"f": ["Adjustable height grows with the child", "Includes ball and pump", "Stable base", "Indoor or outdoor use"], "s": [["Includes", "Hoop, ball, pump"], ["Height", "Adjustable"], ["Age", "3 to 8 years"]]}, "86": {"f": ["Cushioned sole for active kids", "Breathable mesh upper", "Velcro strap for easy wear", "Non-slip outsole"], "s": [["Upper", "Breathable mesh"], ["Closure", "Velcro"], ["Sizes", "UK 1 to 4"]]}, "87": {"f": ["Bright colour handles", "Adjustable length", "Lightweight for small hands", "Good for fitness and play"], "s": [["Material", "PVC"], ["Length", "Adjustable"], ["Age", "5 and up"]]}, "88": {"f": ["Sturdy sacks for sports day races", "Sold as a pair", "Strong stitching", "Fun for school events"], "s": [["Material", "Woven fabric"], ["Sold as", "Pair"], ["Best for", "School and sports day"]]}, "89": {"f": ["Frisbee plus ring toss games", "Soft and safe plastic", "Easy to play anywhere", "Bright colours"], "s": [["Includes", "Frisbee, rings, pegs"], ["Age", "4 and up"]]}, "90": {"f": ["Light frame for juniors", "Sized to the child's height", "Comfortable grip", "Great for learning"], "s": [["Sizes", "19, 21, 23 in"], ["Frame", "Aluminium"], ["Age", "4 to 10 years"]]}, "91": {"f": ["Rubber spikes grip turf and nets", "Cushioned insole for long days", "Breathable upper", "Strong stitching at toe and heel"], "s": [["Upper", "Synthetic mesh"], ["Sole", "Rubber spikes"], ["Best for", "Cricket practice and matches"]]}, "92": {"f": ["Flat stable sole for lifting", "Cushioning for cardio", "Breathable mesh", "Good lateral support"], "s": [["Upper", "Mesh"], ["Sole", "Flat rubber"], ["Best for", "Gym and cross-training"]]}, "93": {"f": ["Light for all-day comfort", "Soft cushioned midsole", "Breathable upper", "Slip-resistant outsole"], "s": [["Upper", "Knit mesh"], ["Sole", "EVA and rubber"], ["Best for", "Walking, daily wear"]]}, "94": {"f": ["Non-marking gum rubber sole", "Cushioning for jumps", "Ankle support", "Good grip on indoor courts"], "s": [["Sole", "Non-marking rubber"], ["Best for", "Volleyball, throwball, indoor courts"]]}, "95": {"f": ["Designed for the female foot shape", "Responsive cushioning", "Breathable upper", "Secure heel fit"], "s": [["Upper", "Breathable mesh"], ["Sole", "Cushioned rubber"], ["Best for", "Running, walking"]]}, "96": {"f": ["Cotton blend keeps feet dry", "Cushioned sole", "Elastic arch support", "Pack of 3 pairs"], "s": [["Material", "Cotton blend"], ["Pack", "3 pairs"], ["Length", "Ankle"]]}, "97": {"f": ["Soft combed cotton", "Terry sole for comfort", "Stays up without slipping", "Pack of 3 pairs"], "s": [["Material", "Cotton"], ["Pack", "3 pairs"], ["Length", "Crew"]]}, "98": {"f": ["Knee-high to hold shin guards", "Stretchy and breathable", "Bright team colours", "Sold as a pair"], "s": [["Material", "Polyester blend"], ["Length", "Knee-high"], ["Sold as", "Pair"]]}, "99": {"f": ["White socks for matches", "Cushioned heel and toe", "Moisture-wicking", "Pack of 3 pairs"], "s": [["Material", "Cotton blend"], ["Colour", "White"], ["Pack", "3 pairs"]]}, "100": {"f": ["Graduated compression supports legs", "Helps reduce fatigue on long runs", "Moisture-wicking", "Sold as a pair"], "s": [["Material", "Nylon blend"], ["Fit", "Compression"], ["Sold as", "Pair"]]}, "101": {"f": ["Low cut stays hidden in shoes", "Anti-blister cushioning", "Breathable cotton blend", "Pack of 5 pairs"], "s": [["Material", "Cotton blend"], ["Pack", "5 pairs"], ["Length", "No-show"]]}, "102": {"f": ["Separate shoe compartment", "Large main compartment", "Padded shoulder strap", "Water-resistant fabric"], "s": [["Material", "Water-resistant polyester"], ["Compartments", "Main, shoe, pocket"], ["Best for", "Gym and travel"]]}, "103": {"f": ["Padded back and straps", "Water-resistant fabric", "Side bottle pockets", "Roomy main compartment"], "s": [["Material", "Water-resistant polyester"], ["Best for", "School, college, training"]]}, "104": {"f": ["Fits up to 6 rackets", "Three compartments", "Padded shoulder strap", "Pocket for shuttles and accessories"], "s": [["Capacity", "Up to 6 rackets"], ["Compartments", "3"], ["Strap", "Padded"]]}, "105": {"f": ["Carries up to 5 balls", "Strong drawstring net", "Easy to see contents", "Light and foldable"], "s": [["Capacity", "5 balls"], ["Material", "Nylon net"], ["Closure", "Drawstring"]]}, "106": {"f": ["Light drawstring sack", "Fits shoes, kit and a towel", "Strong cord straps", "Easy to fold"], "s": [["Material", "Polyester"], ["Closure", "Drawstring"], ["Best for", "Daily kit"]]}, "1": {"f": ["Kashmir willow blade for a good sweet spot", "Choice of short or long handle", "Rubber grip handle", "Suits leather ball matches"], "s": [["Material", "Kashmir willow"], ["Handle", "Cane"], ["Ball type", "Leather"]]}, "2": {"f": ["Genuine leather balls", "Four-piece construction", "Choice of red or white", "Pack of 6"], "s": [["Material", "Leather"], ["Pack", "6"], ["Colours", "Red, White"]]}, "3": {"f": ["Padded fingers and back", "Sizes for youth and men, left or right", "Breathable palm", "Secure wrist closure"], "s": [["Material", "Leather-look palm, foam"], ["Sold as", "Pair"]]}, "4": {"f": ["Steel grille guards the face", "Impact foam inner", "Adjustable back strap", "Sizes M, L, XL"], "s": [["Material", "ABS shell, steel grille"], ["Sizes", "M, L, XL"]]}, "5": {"f": ["Roomy main compartment for a full kit", "Separate pockets for shoes and accessories", "Padded shoulder strap", "Tough zips"], "s": [["Material", "Polyester"], ["Capacity", "Full cricket kit"]]}, "6": {"f": ["Machine-stitched for durability", "Match-quality bounce", "Sizes 4 and 5", "Weather-resistant cover"], "s": [["Material", "Synthetic leather"], ["Sizes", "4, 5"], ["Best for", "Matches"]]}, "7": {"f": ["Studded sole for firm grass grip", "Cushioned insole", "Durable upper", "Sizes UK 7 to 10"], "s": [["Upper", "Synthetic"], ["Sole", "Moulded studs"], ["Best for", "Grass pitches"]]}, "8": {"f": ["Latex palm for grip", "Finger protection", "Adjustable wrist strap", "Sizes 7, 8, 9"], "s": [["Material", "Latex palm"], ["Closure", "Wrist strap"], ["Sold as", "Pair"]]}, "9": {"f": ["Graphite frame is light and strong", "Choice of 3U or 4U", "Pre-strung", "Good power and control"], "s": [["Frame", "Graphite"], ["Strings", "Pre-strung"], ["Weight", "3U, 4U"]]}, "10": {"f": ["Feather shuttlecocks for true flight", "Tube of 12", "Medium or fast speed", "Great for matches"], "s": [["Material", "Feather and cork"], ["Pack", "12"], ["Speed", "Medium, Fast"]]}, "11": {"f": ["Non-marking sole", "Cushioning for quick moves", "Breathable upper", "Good grip"], "s": [["Sole", "Non-marking rubber"], ["Best for", "Indoor courts"]]}, "14": {"f": ["Machine-stitched", "Sizes 4 and 5", "Good flight and bounce", "Match and practice"], "s": [["Material", "Synthetic leather"], ["Sizes", "4, 5"]]}, "15": {"f": ["Padded knees", "Stretch fit", "Sold as a pair", "Sizes S, M, L"], "s": [["Material", "Stretch fabric, foam"], ["Sold as", "Pair"]]}, "19": {"f": ["Adjustable weight, one set replaces many pairs", "Secure locking collars", "Non-slip grip handles", "Space-saving for home use"], "s": [["Weights", "10 kg, 20 kg"], ["Type", "Adjustable"], ["Best for", "Home training"]]}, "25": {"f": ["Cushioned midsole", "Breathable mesh upper", "Non-slip outsole", "UK 7 to 10"], "s": [["Upper", "Mesh"], ["Sole", "Cushioned rubber"], ["Best for", "Running"]]}, "28": {"f": ["Consistent bounce", "Durable felt", "Can of 3", "Practice grade"], "s": [["Pack", "3 balls"], ["Type", "Practice"]]}, "32": {"f": ["Sized for match play", "Good grip", "Durable cover", "Practice and matches"], "s": [["Sport", "Throwball"], ["Material", "Synthetic"]]}};
+const F0=p=>p.ft&&p.ft.length?{f:p.ft,s:(FT[p.id]?FT[p.id].s:[])}:(FT[p.id]||null);
+const ftH=p=>F0(p)?`<h2 class="t">Key features</h2><ul class="kf">${F0(p).f.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:"";
+const ftS=p=>F0(p)?F0(p).s.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td></tr>`).join(""):"";
+const IC={Cricket:'<path d="M14 3l7 7-9 9-4-4z"/><path d="M7.5 15.5 3 21"/>',Football:'<circle cx="12" cy="12" r="9"/><path d="M12 8l3.5 2.5-1.3 4H9.8l-1.3-4z"/><path d="M12 3v5M20 9l-4.5 1.5M17.5 18.5l-3.3-4M6.5 18.5l3.3-4M4 9l4.5 1.5"/>',Badminton:'<path d="M12 21v-4M9 17h6l3-12H6z"/><path d="M8 11h8"/>',"Table Tennis":'<circle cx="10" cy="10" r="7"/><path d="M15 15l5 5"/>',Volleyball:'<circle cx="12" cy="12" r="9"/><path d="M12 3c0 6 4 9 9 9M3 12c5 0 9-3 9-9M6 19c0-4 3-7 8-7"/>',Basketball:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M5.5 5.5c4 3 4 10 0 13M18.5 5.5c-4 3-4 10 0 13"/>',Fitness:'<path d="M6 7v10M3 9v6M18 7v10M21 9v6M6 12h12"/>',Boxing:'<path d="M7 11V8a4 4 0 0 1 8 0v1h2a3 3 0 0 1 3 3v3a5 5 0 0 1-5 5H9a2 2 0 0 1-2-2z"/><path d="M7 16h9"/>',"Other Sports":'<ellipse cx="10" cy="9" rx="6" ry="7" transform="rotate(-30 10 9)"/><path d="M14 14l7 7"/>',Accessories:'<path d="M3 17v-4l5-1 3-4 4 3 5 2a2 2 0 0 1 1 2v2z"/><path d="M3 17h18"/>',"Dumbbells":'<path d="M6 7v10M3 9v6M18 7v10M21 9v6M6 12h12"/>',"Shoes":'<path d="M3 16c4 0 5-3 7-6l3 2c2 1.4 5 2 8 2.5V18H3z"/><path d="M3 18h18"/>',"Socks":'<path d="M8 3h7v9l4 4a3 3 0 0 1-2 5c-2 0-3-1-4-2l-5-4z"/><path d="M8 7h7"/>',"Tennis":'<circle cx="12" cy="12" r="9"/><path d="M5 5c4 4 4 10 0 14M19 5c-4 4-4 10 0 14"/>',"Throwball":'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18"/>'};
+const svg=(c,w)=>`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${IC[c]||IC.G}</svg>`;
+const HEART='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-8-5.2-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 5.8-8 11-8 11z"/></svg>';
+const DEL={home:0,ka:60,other:120,free:4999};
+const CP=[{c:"SPORT10",pct:10,min:1000,max:500},{c:"FLAT200",flat:200,min:2500}];
+const ST=["Order placed","Confirmed","Processing","Packed","Shipped","Out for delivery","Delivered"];
+const RV=[["Ravi K.","Shivamogga",5,"Solid build for the price","Used it through a full league season and it held up well."],["Anita S.","Bengaluru",4,"Arrived quickly","Packed well and matched the description. Sizing runs true."],["Mohammed F.","Mysuru",5,"Good value","Genuine product at a fair price. Will order again."]];
+const PG={about:["About us","Malnad Sports is a sports equipment store based in Shivamogga. We stock gear for cricket, football, volleyball, throwball, tennis, badminton, dumbbells and gym equipment, kids sports items, shoes, socks and sports bags, and deliver across India."],contact:["Contact us","Phone: +91 00000 00000. Email: support@example.com. Store hours: 10 am to 8 pm, Monday to Saturday. (Replace with real details.)"],shipping:["Shipping and delivery","Delivery in Shivamogga is free. Other Karnataka districts are charged ₹60 and the rest of India ₹120. Orders above ₹4,999 ship free everywhere."],cancellation:["Cancellation policy","You can cancel an order before it ships for a full refund. Once an order has shipped it cannot be cancelled."],privacy:["Privacy policy","We use your details only to process orders and support you. We do not sell personal data."],terms:["Terms and conditions","All sales are final: we do not accept returns or exchanges. By ordering you agree to our shipping and cancellation policies. Prices include taxes."]};
+const SL=[["Cricket season is here","Bats, balls and protective gear at up to 30% off.","#1d3a70","Cricket",[1,4]],["Step up your game","Boots and court shoes for football, badminton and basketball.","#0e5a45","Football",[7,9]],["Train at home","Dumbbells, mats and bands. Free delivery in Shivamogga.","#7c3a12","Fitness",[19,18]]];SL.push(["Gym and dumbbells","Dumbbells, barbell sets, benches and kettlebells for home training.","#5a1f3a","Gym Items",[45,49]],["Kids sports corner","Cricket kits, footballs and badminton sets for young players.","#6b4a00","Kids Sports",[82,84]]);let hi=0;
+function hbH(){const s=SL[hi];return `<div class="hbi" style="--c:${s[2]}"><div class="hbt"><h1>${s[0]}</h1><p>${s[1]}</p><a class="b1 lg" href="#/shop?cat=${encodeURIComponent(s[3])}">Shop now</a></div><div class="hbg">${s[4].filter(by).map(i=>art(by(i))).join("")}</div></div><button class="ar l" aria-label="Previous banner" onclick="slide(-1)">‹</button><button class="ar r" aria-label="Next banner" onclick="slide(1)">›</button><div class="dots">${SL.map((_,i)=>`<i class="${i===hi?"on":""}"></i>`).join("")}</div>`}
+function slide(d){hi=(hi+d+SL.length)%SL.length;const e=document.getElementById("hb");if(e)e.innerHTML=hbH()}
+setInterval(()=>slide(1),6000);
+const CD=[["Cricket essentials","#/shop?cat=Cricket",[1,2,3,4]],["Racket sports","#/shop?cat=Badminton",[9,10,12,24]],["Ball sports","#/shop",[6,14,16,13]],["Free delivery in Shivamogga"],["Train at home","#/shop?cat=Fitness",[18,19,20,21]],["Footwear","#/shop?q=shoes",[7,11,17,25]],["Deals under ₹1,000","#/shop?tag=offer",[13,15,26,12]],["New arrivals","#/shop?tag=new",[3,8,15,27]]];
+const cdH=c=>c.length===1?`<div class="cd"><h2>${c[0]}</h2><p class="mut">Order today and get it at your door at no charge. Other Karnataka districts from ₹60.</p><a class="b1" href="#/shop">Start shopping</a></div>`:`<div class="cd"><h2>${c[0]}</h2><div class="mg">${c[2].filter(by).map(i=>`<a class="mt" href="#/p/${i}">${art(by(i))}<span>${by(i).name}</span></a>`).join("")}</div><a class="sl" href="${c[1]}">See more</a></div>`;
+const rw=(t,l,L)=>`<h2 class="t">${t}<a href="${l}">See all</a></h2><div class="hr">${L.map(card).join("")}</div>`;
+const cir=()=>`<div class="sps">${CO().slice(0,12).map(c=>{const p=P.find(x=>x.cat===c&&x.img);return `<a class="sp" style="--h:${H[c]}" href="#/shop?cat=${encodeURIComponent(c)}">${p?`<img src="${esc(p.img)}" alt="">`:pic({cat:c,name:c+" Team Kit"})}<b>${c}</b></a>`}).join("")}<a class="sp" style="--h:215" href="#/shop"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="19" cy="12" r="1.6"/></svg><b>More</b></a></div>`;
+const feat=()=>`<h2 class="t">Featured Products<a href="#/shop?tag=best">View All →</a></h2><div class="grid">${P.filter(p=>p.tag==="best").concat(P.filter(p=>p.tag!=="best")).slice(0,4).map(card).join("")}</div>`;
+const promo=()=>`<div class="pr"><a class="p1" href="#/shop?tag=offer"><h2>Summer Sale</h2><b>Up to 40% OFF</b><span class="b1">Shop Now</span></a><a class="p2" href="#/shop"><h2>Top Brands</h2><b>Best Deals</b><span class="b1">Shop Now</span></a></div>`;
+const colH=(t,c)=>sec(t,"#/shop?cat="+encodeURIComponent(c),P.filter(p=>p.cat===c));
+const SUP="support@example.com";/* replace with the store's real email */
+function bulkSend(){const g=i=>$("#"+i).value.trim();if(!g("bn")||!g("bc")||!(+g("bq")>0)){$("#be").textContent="Enter team name, contact number and quantity.";return}$("#be").textContent="";location.href="mailto:"+SUP+"?subject="+encodeURIComponent("Bulk order quote: "+g("bn"))+"&body="+encodeURIComponent(`Team: ${g("bn")}\nContact: ${g("bc")}\nSport: ${g("bs")}\nQuantity: ${g("bq")}\nDetails: ${g("bd")}`)}
+function bulkV(){return `<div class="wrap" style="max-width:720px"><div class="bc"><a href="#/">Home</a> / Bulk orders</div><h1 style="font-size:28px;margin-bottom:8px">Team kits and bulk orders</h1><p class="mut" style="margin-bottom:14px">Tell us what your team or school needs. Sending opens your email app with the request ready to send to the store.</p><div class="box fm"><label class="w">Team, school or college name<input id="bn"></label><label>Contact number<input id="bc" inputmode="numeric"></label><label>Quantity<input id="bq" type="number" min="1" inputmode="numeric"></label><label class="w">Sport<select id="bs">${Object.keys(H).map(c=>`<option>${c}</option>`).join("")}</select></label><label class="w">Jersey colours, sizes, names, numbers, logo<input id="bd"></label><div id="be" class="err w" role="alert"></div><div class="w"><button class="b1 lg" onclick="bulkSend()">Send request by email</button></div></div></div>`}
+const PIC={sock:(c,d,l)=>`<path d='M34 8h30v44l22 20a14 14 0 0 1-10 24c-10 0-16-6-22-12L34 66z' fill='${c}'/><path d='M34 20h30M34 30h30' stroke='${l}' stroke-width='5'/><path d='M34 8h30v8H34z' fill='${d}'/>`,
+kb:(c,d,l)=>`<path d='M34 38c-2-24 32-24 32 0' fill='none' stroke='${d}' stroke-width='9' stroke-linecap='round'/><circle cx='50' cy='64' r='26' fill='${c}'/><circle cx='42' cy='56' r='6' fill='${l}' opacity='.5'/>`,
+bat:(c,d,l)=>`<rect x='44' y='4' width='12' height='28' rx='5' fill='${d}'/><path d='M36 32h28l-4 60a8 8 0 0 1-8 6h-4a8 8 0 0 1-8-6z' fill='${l}' stroke='${c}' stroke-width='3'/><path d='M50 42v44' stroke='${c}' stroke-width='2'/>`,
+ball:(c,d,l)=>`<circle cx='50' cy='50' r='34' fill='${c}'/><path d='M16 50h68M50 16v68M26 26c14 10 14 38 0 48M74 26c-14 10-14 38 0 48' fill='none' stroke='${l}' stroke-width='3'/>`,
+shoe:(c,d,l)=>`<path d='M10 62c10 0 14-6 20-16l8 6c6 4 16 6 30 8 10 2 22 6 22 14v8H10z' fill='${c}'/><path d='M10 78h82' stroke='${d}' stroke-width='6' stroke-linecap='round'/><path d='M34 54l6-6M44 58l6-6M54 62l6-6' stroke='${l}' stroke-width='3'/>`,
+racket:(c,d,l)=>`<ellipse cx='50' cy='36' rx='24' ry='30' fill='none' stroke='${c}' stroke-width='5'/><path d='M34 20l32 32M28 34l44 4M38 8l24 56M66 20L34 52' stroke='${l}' stroke-width='2'/><path d='M50 66v10' stroke='${c}' stroke-width='5'/><rect x='45' y='76' width='10' height='20' rx='4' fill='${d}'/>`,
+shuttle:(c,d,l)=>`<circle cx='50' cy='82' r='12' fill='${l}' stroke='${c}' stroke-width='3'/><path d='M40 72L22 16h56L60 72z' fill='#fff' stroke='${c}' stroke-width='3'/><path d='M34 38h32M29 24h42' stroke='${c}' stroke-width='2'/>`,
+glove:(c,d,l)=>`<path d='M28 88V54l-8-14 6-4 10 12V24a5 5 0 0 1 10 0v14V16a5 5 0 0 1 10 0v22V20a5 5 0 0 1 10 0v38c0 18-8 30-20 30z' fill='${c}'/><rect x='30' y='82' width='34' height='12' rx='3' fill='${d}'/>`,
+helmet:(c,d,l)=>`<path d='M16 62a34 34 0 0 1 68 0v6H16z' fill='${c}'/><path d='M30 68v18M44 68v18M58 68v18M72 68v18M24 78h52' stroke='${d}' stroke-width='4'/>`,
+bag:(c,d,l)=>`<rect x='12' y='34' width='76' height='46' rx='12' fill='${c}'/><path d='M34 34a16 16 0 0 1 32 0' fill='none' stroke='${d}' stroke-width='5'/><path d='M12 56h76' stroke='${d}' stroke-width='3'/><rect x='44' y='52' width='12' height='10' rx='2' fill='${l}'/>`,
+mat:(c,d,l)=>`<rect x='26' y='30' width='58' height='40' rx='4' fill='${c}'/><circle cx='26' cy='50' r='20' fill='${d}'/><circle cx='26' cy='50' r='8' fill='${l}'/>`,
+dumbbell:(c,d,l)=>`<rect x='34' y='46' width='32' height='8' fill='${d}'/><rect x='18' y='30' width='14' height='40' rx='4' fill='${c}'/><rect x='68' y='30' width='14' height='40' rx='4' fill='${c}'/><rect x='8' y='38' width='8' height='24' rx='3' fill='${d}'/><rect x='84' y='38' width='8' height='24' rx='3' fill='${d}'/>`,
+bottle:(c,d,l)=>`<rect x='34' y='30' width='32' height='60' rx='8' fill='${c}'/><rect x='40' y='14' width='20' height='16' rx='3' fill='${d}'/><rect x='34' y='50' width='32' height='14' fill='${l}'/>`,
+kit:(c,d,l,p)=>`<path d='M32 6l-20 10 6 14 10-4v30h44V26l10 4 6-14L68 6c-3 7-9 10-18 10S35 13 32 6z' fill='${c}'/><text x='50' y='46' text-anchor='middle' font-size='18' font-weight='800' fill='${l}' font-family='Archivo,sans-serif'>${(p.id||7)%30+1}</text><path d='M28 66h44l4 28H54l-4-12-4 12H24z' fill='${d}'/>`};
+const kind=n=>/Sock|Stocking/.test(n)?"sock":/Kettlebell/.test(n)?"kb":/Bag|Sack/.test(n)?"bag":/Shuttle/.test(n)?"shuttle":/Shoes|Boots|Spikes|Skates/.test(n)?"shoe":/Glove/.test(n)?"glove":/Helmet/.test(n)?"helmet":/Pads|Guard/.test(n)?"":/Racket|Table Tennis Bat|Putter/.test(n)?"racket":/Bat\b|Stick/.test(n)?"bat":/ball/i.test(n)?"ball":/Mat\b|Block/.test(n)?"mat":/Dumbbell|Barbell/.test(n)?"dumbbell":/Bottle/.test(n)?"bottle":/Kit|Jersey|Shirt|Gi\b|Uniform/.test(n)?"kit":"";
+const pic=p=>{const h=H[p.cat],k=kind(p.name||"");if(!k)return svg(p.cat);return `<svg class="pic" viewBox="0 0 100 100" aria-hidden="true">${PIC[k](`hsl(${h} 50% 42%)`,`hsl(${h} 50% 26%)`,`hsl(${h} 70% 85%)`,p)}</svg>`};
+const art1=p=>`<div class="art" style="--h:${H[p.cat]}">${pic(p)}<span>${esc(p.brand||"")}</span></div>`;
+function sug(){const v=$("#q").value.trim().toLowerCase(),b=$("#sgb");if(!v){b.hidden=true;return}const seen=new Set(),out=[],add=(t,u,p)=>{const k=t.toLowerCase();if(seen.has(k)||out.length>=6)return;seen.add(k);out.push([t,u,p])};
+Object.keys(H).filter(c=>c.toLowerCase().includes(v)).forEach(c=>add(c,"#/shop?cat="+encodeURIComponent(c),P.find(p=>p.cat===c)));
+[...new Set(P.map(p=>p.brand))].filter(x=>x.toLowerCase().includes(v)).forEach(x=>add(x,"#/shop?q="+encodeURIComponent(x),P.find(p=>p.brand===x)));
+P.filter(p=>p.name.toLowerCase().includes(v)).forEach(p=>add(p.name,"#/p/"+p.id,p));
+b.innerHTML=out.length?out.map(o=>`<a href="${o[1]}" onclick="$('#sgb').hidden=true">${o[2]?`<span class="th2">${art(o[2])}</span>`:""}<span>${esc(o[0])}</span></a>`).join(""):'<div class="sgn">No matches. Try another word.</div>';b.hidden=false}
+document.addEventListener("click",e=>{if(!e.target.closest(".sb"))$("#sgb").hidden=true});
+let ct="Cricket";
+const sx=(t,s,l,b,c)=>`<section class="sx ${c||""}"><div class="wrap"><div class="sh"><div><h2>${t}</h2><p>${s}</p></div>${l?`<a href="${l[0]}">${l[1]}</a>`:""}</div>${b}</div></section>`;
+const colB=()=>`<div class="tabs" role="tablist">${["Cricket","Football","Badminton","Fitness","Basketball"].map(c=>`<button role="tab" class="${c===ct?"on":""}" onclick="setCT('${c}')">${c}</button>`).join("")}</div><div class="grid">${P.filter(p=>p.cat===ct).slice(0,4).map(card).join("")}</div>`;
+function setCT(c){ct=c;$("#col").innerHTML=colB()}
+function home3(){const br=[...new Set(P.map(p=>p.brand))].sort();
+return `<div class="home"><div class="wrap"><div class="hero2" id="hb">${hbH()}</div><div class="trust"><div><b>Free delivery</b><span>In Shivamogga, ₹60 elsewhere</span></div><div><b>Genuine gear</b><span>Authorised makers only</span></div><div><b>Secure payment</b><span>UPI, cards, net banking</span></div><div><b>Order tracking</b><span>From packing to doorstep</span></div></div></div>
+${sx("Shop by sport","Find equipment for your game",["#/shop","All products"],cir())}
+${sx("Featured products","Top picks from our best sellers",["#/shop?tag=best","View all"],`<div class="grid feat">${P.filter(p=>p.tag==="best").slice(0,4).map(card).join("")}</div>`,"alt")}
+${sx("Offers","Seasonal deals on the gear you need",null,promo())}
+${sx("New arrivals","Just added to the store",["#/shop?tag=new","View all"],`<div class="hr">${P.filter(p=>p.tag==="new").map(card).join("")}</div>`,"alt")}
+${sx("Popular collections","Browse by sport",null,`<div id="col">${colB()}</div>`)}
+${sx("Shop by brand","Trusted names in sports gear",null,`<div class="brands">${br.map(b=>`<a href="#/shop?q=${encodeURIComponent(b)}">${esc(b)}</a>`).join("")}</div>`,"alt")}
+<section class="sx"><div class="wrap"><div class="kit"><div><h2>Team kits and bulk orders</h2><p>Jerseys and sports kits for schools, colleges and clubs. Send your requirements and get a quote.</p></div><a class="b2 lg" href="#/bulk">Request a quote</a></div></div></section></div>`}
+function home2(){const br=[...new Set(P.map(p=>p.brand))].sort();return `<div class="wrap home"><div class="hero2" id="hb">${hbH()}</div>${cir()}<div class="feat">${feat()}</div>${promo()}${sec("New arrivals","#/shop?tag=new",P.filter(p=>p.tag==="new"))}${colH("Cricket equipment","Cricket")}${colH("Football equipment","Football")}<h2 class="t">Shop by brand</h2><div class="brands">${br.map(b=>`<a href="#/shop?q=${encodeURIComponent(b)}">${esc(b)}</a>`).join("")}</div><div class="kit"><div><h2>Team kits and bulk orders</h2><p>Jerseys and sports kits for schools, colleges and clubs. Send your requirements and get a quote.</p></div><a class="b2 lg" href="#/bulk">Request a quote</a></div><div class="why"><div><b>Genuine products</b><span>Sourced from authorised makers and distributors.</span></div><div><b>Free delivery in Shivamogga</b><span>Elsewhere from ₹60, free above ₹4,999.</span></div><div><b>Secure payments</b><span>UPI, cards and net banking.</span></div><div><b>Order tracking</b><span>Follow your order from packing to delivery.</span></div></div></div>`}
+IC.G='<path d="M8 4h8v5a4 4 0 0 1-8 0z"/><path d="M8 6H4v2a3 3 0 0 0 4 2.8M16 6h4v2a3 3 0 0 1-4 2.8M12 13v4M8 20h8M10 17h4"/>';
+const art=(p,i=0)=>p.img?`<div class="art" style="--h:${H[p.cat]}"><img src="${esc(p.img)}" alt="${esc(p.name||"")}"></div>`:art1(p);
+const AH="7d21e495390bdd5c9f3864598b0c5c64a9766fbafebe8bbb025686daf7d322c8",CK="ms_catalog1",cl=s=>String(s).replace(/[<>"'`]/g,"").trim(),mx=()=>Math.max(6000,...P.map(p=>p.price));
+/* ONLINE DATABASE (Supabase). Paste your Project URL and anon public key below. Leave empty to run without it. */
+const SB={url:"https://bfkcxhxxdjvixhzzssiu.supabase.co",key:"sb_publishable_VHyuAkdvfLhc3IeQsonH1g_EoZ_pkUo"},SBON=()=>!!(SB.url&&SB.key);
+let CLOUD=false,CL={},CLsig="",sb=null;const H0=new Set(Object.keys(H));
+let CAT={add:[],ed:{},del:[],cats:{},n:0},AD=false,AF={img:""};
+try{Object.assign(CAT,JSON.parse(localStorage.getItem(CK))||{})}catch(e){}
+try{AD=sessionStorage.getItem("ms_ad")==="1"}catch(e){}
+if(SBON())AD=false;
+function applyCat(){CAT.n=CAT.n||Math.max(...BASE.concat(CAT.add).map(p=>p.id))+1;Object.assign(H,CAT.cats);
+ P=BASE.concat(CAT.add).filter(p=>!CAT.del.includes(p.id)).map(p=>CAT.ed[p.id]?{...p,...CAT.ed[p.id]}:p);
+ D.cart=D.cart.filter(l=>{const p=by(l.id);return p&&l.v<p.v.length});D.wish=D.wish.filter(id=>by(id))}
+function cloudDocs(){const d={meta:{cats:CAT.cats,del:CAT.del,n:CAT.n}};CAT.add.forEach(p=>d["p"+p.id]=p);Object.keys(CAT.ed).forEach(k=>d["e"+k]=CAT.ed[k]);return d}
+async function cloudPush(){const want=cloudDocs(),up=[],del=[];
+for(const k in want){const j=JSON.stringify(want[k]);if(CL[k]!==j)up.push({id:k,data:JSON.parse(j)})}
+for(const k in CL){if(!(k in want))del.push(k)}
+try{if(up.length){const r=await sb.from("catalog").upsert(up);if(r.error)throw r.error}
+if(del.length){const r=await sb.from("catalog").delete().in("id",del);if(r.error)throw r.error}
+toast("Saved online. Customers can see it now.")}catch(e){toast("Could not save online: "+(e.message||e))}
+await sbLoad()}
+function cloudApply(m){const sig=JSON.stringify(m);if(sig===CLsig)return;CLsig=sig;CL=m;
+Object.keys(CAT.cats).forEach(c=>{if(!H0.has(c))delete H[c]});
+const N={add:[],ed:{},del:[],cats:{},n:0};
+for(const k in m){const o=JSON.parse(m[k]);if(k==="meta"){N.cats=o.cats||{};N.del=o.del||[];N.n=o.n||0}else if(k[0]==="p")N.add.push(o);else if(k[0]==="e")N.ed[k.slice(1)]=o}
+N.add.sort((a,b)=>a.id-b.id);CAT=N;applyCat();nav();route(true)}
+async function sbLoad(){if(!sb)return;try{const r=await sb.from("catalog").select("id,data");if(r.error)throw r.error;const m={};(r.data||[]).sort((a,b)=>a.id<b.id?-1:1).forEach(x=>{m[x.id]=JSON.stringify(x.data)});cloudApply(m)}catch(e){console.warn(e)}}
+function sbBoot(){sb=supabase.createClient(SB.url,SB.key);CLOUD=true;
+sb.auth.getSession().then(r=>{const a=!!(r.data&&r.data.session);if(a!==AD){AD=a;route(true)}});
+sb.auth.onAuthStateChange((ev,se)=>{const a=!!se;if(a!==AD){AD=a;route(true)}});
+sbLoad();setInterval(sbLoad,60000);document.addEventListener("visibilitychange",()=>{if(!document.hidden)sbLoad()})}
+function sbInit(){if(!SBON())return;const x=document.createElement("script");x.src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js";x.onload=sbBoot;x.onerror=()=>{};document.head.appendChild(x)}
+function bkDown(){const b=new Blob([JSON.stringify({v:1,saved:new Date().toISOString(),catalog:CAT},null,1)],{type:"application/json"}),a=document.createElement("a");a.href=URL.createObjectURL(b);a.download="malnad-sports-backup-"+new Date().toISOString().slice(0,10)+".json";document.body.appendChild(a);a.click();a.remove()}
+function bkUp(el){const f=el.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{const o=JSON.parse(r.result).catalog;if(!o||!Array.isArray(o.add)||!Array.isArray(o.del))throw 0;if(!confirm("Replace current products with this backup?"))return;CAT={add:o.add,ed:o.ed||{},del:o.del,cats:o.cats||{},n:o.n||0};if(csave()){applyCat();nav();route(true);toast("Backup restored")}}catch(e){toast("This is not a valid backup file")}};r.readAsText(f)}
+function csave(){if(SBON()){if(!CLOUD||!AD){toast("Not connected to the online database.");return false}cloudPush();return true}try{localStorage.setItem(CK,JSON.stringify(CAT));return true}catch(e){toast("Storage full. Use a smaller image.");return false}}
+function sha256js(m){const K=[],H=[];const pr=[];for(let c=2;pr.length<64;c++){if(pr.every(p=>c%p))pr.push(c)}
+pr.forEach((p,i)=>{K[i]=(Math.pow(p,1/3)%1*4294967296)|0;if(i<8)H[i]=(Math.pow(p,1/2)%1*4294967296)|0});
+const b=Array.from(new TextEncoder().encode(m)),l=b.length*8;b.push(128);while(b.length%64!==56)b.push(0);
+for(let i=7;i>=0;i--)b.push(i>=4?0:(l>>>(i*8))&255);
+const R=(x,n)=>(x>>>n)|(x<<(32-n));
+for(let o=0;o<b.length;o+=64){const w=[];for(let i=0;i<16;i++)w[i]=(b[o+4*i]<<24)|(b[o+4*i+1]<<16)|(b[o+4*i+2]<<8)|b[o+4*i+3];
+for(let i=16;i<64;i++){const a=w[i-15],c=w[i-2];w[i]=(w[i-16]+(R(a,7)^R(a,18)^(a>>>3))+w[i-7]+(R(c,17)^R(c,19)^(c>>>10)))|0}
+let[a,c,d,e,f,g,h,j]=H;
+for(let i=0;i<64;i++){const t1=(j+(R(f,6)^R(f,11)^R(f,25))+((f&g)^(~f&h))+K[i]+w[i])|0,t2=((R(a,2)^R(a,13)^R(a,22))+((a&c)^(a&d)^(c&d)))|0;j=h;h=g;g=f;f=(e+t1)|0;e=d;d=c;c=a;a=(t1+t2)|0}
+H[0]=(H[0]+a)|0;H[1]=(H[1]+c)|0;H[2]=(H[2]+d)|0;H[3]=(H[3]+e)|0;H[4]=(H[4]+f)|0;H[5]=(H[5]+g)|0;H[6]=(H[6]+h)|0;H[7]=(H[7]+j)|0}
+return H.map(x=>(x>>>0).toString(16).padStart(8,"0")).join("")}
+async function sha(s){try{if(window.crypto&&crypto.subtle){const b=await crypto.subtle.digest("SHA-256",new TextEncoder().encode(s));return[...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("")}}catch(e){}return sha256js(s)}
+async function alog(){const u=$("#au").value.trim().toLowerCase(),p=$("#ap").value;
+ if(SBON()){if(!CLOUD){$("#ae").textContent="Cannot reach the online database. Check internet and try again.";return}
+  const r=await sb.auth.signInWithPassword({email:u,password:p});if(r.error)$("#ae").textContent="Wrong email or password.";else toast("Welcome, admin");return}
+ let h="";try{h=await sha(u+"|"+p)}catch(e){$("#ae").textContent="Secure (https) page needed for login.";return}
+ if(h===AH){AD=true;try{sessionStorage.setItem("ms_ad","1")}catch(e){}route();toast("Welcome, admin")}else $("#ae").textContent="Wrong username or password."}
+function alo(){if(CLOUD)sb.auth.signOut();AD=false;try{sessionStorage.removeItem("ms_ad")}catch(e){}go("#/")}
+function rz(f,cb){const r=new FileReader();r.onload=()=>{const i=new Image();i.onload=()=>{const s=Math.min(1,640/Math.max(i.width,i.height)),c=document.createElement("canvas");c.width=i.width*s;c.height=i.height*s;c.getContext("2d").drawImage(i,0,0,c.width,c.height);cb(c.toDataURL("image/jpeg",.8))};i.src=r.result};r.readAsDataURL(f)}
+function pimg(el){const f=el.files[0];if(f)rz(f,d=>{AF.img=d;$("#pim").innerHTML=art({img:d,cat:"x",name:""})})}
+function addcat(){const n=cl($("#nc").value);if(!n)return;if(H[n]){toast("Already exists");return}CAT.cats[n]=Math.floor(Math.random()*360);if(csave()){applyCat();nav();route(true);toast("Section added")}}
+function delp(id){if(!confirm("Delete this product?"))return;CAT.add=CAT.add.filter(x=>x.id!==id);delete CAT.ed[id];if(BASE.some(x=>x.id===id))CAT.del.push(id);csave();applyCat();route(true);toast("Deleted")}
+function psave(id){const g=i=>$("#"+i).value,n=cl(g("pn")),pr=+g("pp"),mrp=+g("pm")||pr,st=Math.floor(+g("ps")),
+ err=!n?"Enter product name.":!(pr>0)?"Enter a valid price.":mrp<pr?"MRP cannot be less than price.":!(st>=1)?"Enter stock of at least 1.":"";
+ if(err){$("#pe").textContent=err;return}
+ let v=g("pv").split(",").map(x=>{const[l,a]=x.split("+");return{l:cl(l||""),a:+a||0}}).filter(x=>x.l);if(!v.length)v=[{l:"Standard",a:0}];
+ const old=id?by(id):null,o={id:id||CAT.n++,name:n,cat:g("pc2"),brand:cl(g("pb"))||"Generic",price:pr,mrp,rating:old?old.rating:0,rev:old?old.rev:0,stock:st,v,tag:g("pt"),ft:g("pf").split("\n").map(cl).filter(Boolean),img:AF.img};
+ if(id){const i=CAT.add.findIndex(x=>x.id===id);if(i>=0)CAT.add[i]=o;else CAT.ed[id]=o}else CAT.add.push(o);
+ if(csave()){applyCat();nav();go("#/admin");toast("Product saved")}}
+function pform(p,cat){AF={img:p&&p.img||""};const e=!!p,c=p?p.cat:cat,v=p?p.v.map(x=>x.l+(x.a?"+"+x.a:"")).join(","):"Standard",
+ f=(i,l,val,t,w)=>`<label class="${w?"w":""}">${l}<input id="${i}" value="${esc(val)}" ${t||""}></label>`,nu='type="number" min="1" inputmode="numeric"';
+ return `<div class="wrap" style="max-width:760px"><div class="bc"><a href="#/admin">Admin</a> / ${e?"Edit product":"Add product"}</div><h1 style="font-size:28px;margin-bottom:12px">${e?"Edit product":"Add product"}</h1><div class="box fm">
+ ${f("pn","Product name",p?p.name:"","",1)}<label>Sport / section<select id="pc2">${Object.keys(H).map(k=>`<option ${k===c?"selected":""}>${k}</option>`).join("")}</select></label>${f("pb","Brand",p?p.brand:"")}
+ ${f("pp","Price (₹)",p?p.price:"",nu)}${f("pm","MRP (₹, struck-through price)",p?p.mrp:"",nu)}${f("ps","Stock quantity",p?p.stock:"",nu)}
+ <label>Tag<select id="pt">${[["","None"],["best","Best seller"],["trend","Trending"],["new","New arrival"]].map(([k,t])=>`<option value="${k}" ${p&&p.tag===k?"selected":""}>${t}</option>`).join("")}</select></label>
+ ${f("pv","Options, comma separated (add +price for extra cost, e.g. Pro+400)",v,"",1)}
+ <label class="w">Key features, one per line<textarea id="pf" rows="4" style="padding:10px;border:1.5px solid var(--ln);border-radius:6px;background:var(--sf);width:100%;font:inherit">${esc(((p&&(p.ft||(FT[p.id]&&FT[p.id].f)))||[]).join("\n"))}</textarea></label>
+ <label class="w">Product image<input type="file" accept="image/*" onchange="pimg(this)"></label>
+ <div class="w"><div id="pim" style="max-width:160px">${AF.img?art({img:AF.img,cat:c,name:""}):""}</div><button type="button" class="b3" style="margin-top:6px" onclick="AF.img='';$('#pim').innerHTML=''">Remove image</button></div>
+ <div id="pe" class="err w" role="alert"></div><div class="row w"><button class="b1" onclick="psave(${p?p.id:0})">Save product</button><a class="b3" href="#/admin">Cancel</a></div></div></div>`}
+function adminV(q){
+ if(!AD)return `<div class="wrap" style="max-width:420px"><h1 style="font-size:28px;margin-bottom:12px">Admin login</h1><div class="box fm" data-enter style="grid-template-columns:1fr"><label>Username (email)<input id="au" autocomplete="username"></label><label>Password<input id="ap" type="password" autocomplete="current-password"></label><div id="ae" class="err" role="alert"></div><button type="button" class="b1" onclick="alog()">Login</button></div></div>`;
+ const ed=q.get("edit"),nw=q.get("new");if(ed&&by(+ed))return pform(by(+ed));if(nw!==null)return pform(null,nw);
+ return `<div class="wrap"><div class="bar"><h1 style="font-size:28px">Admin panel</h1><button class="b3" onclick="alo()">Logout</button></div>
+ <div class="box row" style="margin-bottom:14px"><button class="b3" style="color:var(--pri)" onclick="bkDown()">Download backup</button><label class="b3" style="color:var(--pri);cursor:pointer">Restore backup<input type="file" accept=".json" style="display:none" onchange="bkUp(this)"></label><span class="mut">Keep a copy of your products on your phone or computer.</span></div>
+ <div class="box row" style="margin-bottom:14px"><div class="chk" style="max-width:none;flex:1"><input id="nc" placeholder="New sport / section name" aria-label="New sport name"></div><button class="b2" onclick="addcat()">+ Add sport</button></div>
+ ${Object.keys(H).map(c=>{const L=P.filter(p=>p.cat===c);return `<div class="box" style="margin-bottom:12px"><div class="bar" style="margin:0 0 6px"><h3>${c} <span class="mut" style="font-size:14px">(${L.length})</span></h3><a class="b2" href="#/admin?new=${encodeURIComponent(c)}">+ Add product</a></div>${L.map(p=>`<div class="ln" style="grid-template-columns:56px 1fr auto"><div>${art(p)}</div><div><b>${p.name}</b><div class="mut">${inr(p.price)} · MRP ${inr(p.mrp)} · Stock ${p.stock}</div></div><div class="row"><a class="b3" style="padding:6px 10px;color:var(--pri)" href="#/admin?edit=${p.id}">Edit</a><button class="b3" style="padding:6px 10px;color:var(--sale)" onclick="delp(${p.id})">Delete</button></div></div>`).join("")||'<p class="mut">No products yet.</p>'}</div>`}).join("")}</div>`}
+const K="ms_pro1";let D={cart:[],wish:[],orders:[],n:100001,addr:{},cp:"",pm:"UPI"};
+try{Object.assign(D,JSON.parse(localStorage.getItem(K))||{})}catch(e){}
+const save=()=>{try{localStorage.setItem(K,JSON.stringify(D))}catch(e){}};
+const $=s=>document.querySelector(s),inr=n=>"₹"+Math.round(n).toLocaleString("en-IN"),by=id=>P.find(p=>p.id===id);
+const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const disc=p=>Math.round((1-p.price/p.mrp)*100),vs=p=>Math.ceil(p.stock/p.v.length),unit=(p,i)=>p.price+p.v[i].a;
+const fmt=t=>new Date(t).toLocaleString("en-IN",{dateStyle:"medium",timeStyle:"short"});
+let F={cat:new Set(),brand:new Set(),max:mx(),rate:0,stock:false,sort:"rel"},keep=false,fo=false,sv=0,si=0,sq=1,last=0,tm;
+const zone=(pin,d)=>/shivamogga|shimoga/i.test(d||"")||/^577[2-4]/.test(pin)?"home":/^5[6-9]/.test(pin)?"ka":"other";
+const dch=(z,s)=>z==="home"||s>=DEL.free?0:DEL[z];
+function toast(m){const t=$("#toast");t.textContent=m;t.style.display="block";clearTimeout(tm);tm=setTimeout(()=>t.style.display="none",2200)}
+function upd(){const c=D.cart.reduce((a,l)=>a+l.q,0);$("#cc").textContent=c;$("#wc").textContent=D.wish.length;$("#bc2").textContent=c||"";$("#bw2").textContent=D.wish.length||""}
+function srch(){$("#sgb").hidden=true;const v=$("#q").value.trim(),c="";go("#/shop?q="+encodeURIComponent(v)+(c?"&cat="+encodeURIComponent(c):""));return false}
+const art0=(p,i=0)=>`<div class="art" style="--h:${H[p.cat]}"><span style="display:none"></span>${svg(p.cat).replace("<svg ",`<svg style="transform:rotate(${i*14}deg)" `)}<span>${p.brand}</span></div>`;
+const rate=p=>!p.rev?`<div class="rc" style="margin:0">New</div>`:`<div><span class="rt">${p.rating.toFixed(1)} ★</span><span class="rc">${p.rev} reviews</span></div>`;
+function card(p){return `<article class="pc">${disc(p)>=10?`<span class="bdg">${disc(p)}% off</span>`:""}<a href="#/p/${p.id}" aria-label="${p.name}">${art(p)}</a><button class="hb ${D.wish.includes(p.id)?"on":""}" aria-label="Save to wishlist" onclick="tw(${p.id})">${HEART}</button><div class="pb">${AD?`<a class="b3" style="padding:3px 8px;font-size:12px;align-self:flex-start" href="#/admin?edit=${p.id}">Edit</a>`:""}<span class="br">${p.brand}</span><a class="pn" href="#/p/${p.id}">${p.name}</a>${rate(p)}<div class="pp"><b>${inr(p.price)}</b><s>${inr(p.mrp)}</s><em>${disc(p)}% off</em></div><div class="st ${p.stock<10?"low":""}">${p.stock<10?"Only "+p.stock+" left":"In stock"}</div><div class="ab"><button class="b2" onclick="qa(${p.id})">Add to cart</button><button class="b1" onclick="bn(${p.id})">Buy now</button></div></div></article>`}
+const sec=(t,l,L)=>`<h2 class="t">${t}<a href="${l}">View all</a></h2><div class="grid">${L.slice(0,4).map(card).join("")}</div>`;
+function addC(id,v,q){const p=by(id),m=vs(p);const l=D.cart.find(x=>x.id===id&&x.v===v);if(l)l.q=Math.min(l.q+q,m);else D.cart.push({id,v,q:Math.min(q,m)});save();upd()}
+const qa=id=>{addC(id,0,1);toast("Added to cart: "+by(id).name)},bn=id=>{addC(id,0,1);go("#/checkout")};
+function tw(id){const i=D.wish.indexOf(id);i<0?D.wish.push(id):D.wish.splice(i,1);save();upd();route(true)}
+function tot(){let sub=0,mrp=0;D.cart.forEach(l=>{const p=by(l.id);sub+=unit(p,l.v)*l.q;mrp+=(p.mrp+p.v[l.v].a)*l.q});
+ const c=CP.find(x=>x.c===D.cp);let cd=0;if(c&&sub>=c.min)cd=Math.min(c.max||1e9,c.pct?Math.round(sub*c.pct/100):c.flat);
+ const a=D.addr||{},has=/^\d{6}$/.test(a.pin||""),z=has?zone(a.pin,a.dist):null,del=z?dch(z,sub-cd):null;
+ return{sub,mrp,cd,del,z,tot:sub-cd+(del||0)}}
+function sumH(){const t=tot();return `<div class="sr"><span>Items (${D.cart.reduce((a,l)=>a+l.q,0)})</span><span>${inr(t.mrp)}</span></div><div class="sr g"><span>Discount on items</span><span>−${inr(t.mrp-t.sub)}</span></div>${t.cd?`<div class="sr g"><span>Coupon ${D.cp}</span><span>−${inr(t.cd)}</span></div>`:""}<div class="sr"><span>Delivery</span><span>${t.del===null?"Enter pincode at checkout":t.del?inr(t.del):"FREE"}</span></div><div class="sr t"><span>Total</span><span>${inr(t.tot)}</span></div>`}
+document.addEventListener("keydown",e=>{if(e.key!=="Enter"||!e.target||e.target.tagName!=="INPUT")return;const c=e.target.closest("[data-enter]");if(!c)return;e.preventDefault();const b=c.querySelector("button.sb-submit,button.b1");if(b)b.click()});
+let RH=location.hash;
+function go(h){RH=h;try{if(window.top===window)location.hash=h}catch(e){}route();try{scrollTo(0,0)}catch(e){}}
+document.addEventListener("click",e=>{const a=e.target.closest&&e.target.closest('a[href^="#/"]');if(!a||e.ctrlKey||e.metaKey||e.shiftKey)return;e.preventDefault();go(a.getAttribute("href"))});
+function route(k){keep=!!k;const[pa,qs]=(RH.slice(1)||"/").split("?"),q=new URLSearchParams(qs||""),s=pa.split("/").filter(Boolean),a=s[0]||"home";
+ const m={home:home3,bulk:bulkV,shop:()=>shop(q),p:()=>pdp(+s[1]),cart:cartV,checkout,done:()=>done(s[1]),orders:()=>orders(),track:()=>orders(q),wish:wishV,admin:()=>adminV(q)};
+ $("#app").innerHTML=(m[a]||(()=>page(a==="page"?s[1]:a)))();upd();document.body.classList.toggle("pdp",a==="p");document.querySelectorAll("#bn a").forEach(x=>x.classList.toggle("on",x.dataset.k===a))}
+function home(){const t=g=>P.filter(p=>p.tag===g),o=P.filter(p=>disc(p)>=28);
+ return `<section class="hero"><div><h1>Equipment for every serious game</h1><p>Cricket, football, badminton and more from trusted makers. Free home delivery in Shivamogga and fast shipping across India.</p><a class="b1 lg" href="#/shop">Shop all products</a><a class="b3 lg" href="#/shop?tag=offer">See offers</a></div><div class="hg">${[1,9,6,19].map(i=>art(by(i))).join("")}</div></section>
+ <div class="wrap"><h2 class="t">Shop by sport<a href="#/shop">All products</a></h2><div class="sps">${Object.keys(H).map(c=>`<a class="sp" style="--h:${H[c]}" href="#/shop?cat=${encodeURIComponent(c)}">${svg(c)}<b>${c}</b><span>${P.filter(p=>p.cat===c).length} products</span></a>`).join("")}</div>
+ ${sec("Best sellers","#/shop?tag=best",t("best"))}${sec("Trending now","#/shop?tag=trend",t("trend"))}${sec("New arrivals","#/shop?tag=new",t("new"))}${sec("Special offers","#/shop?tag=offer",o)}
+ <h2 class="t">Why shop with us</h2><div class="why"><div><b>Genuine products</b><span>Sourced from authorised makers and distributors.</span></div><div><b>Free delivery in Shivamogga</b><span>Elsewhere from ₹60, free above ₹4,999.</span></div><div><b>Secure payments</b><span>UPI, cards and net banking.</span></div><div><b>Order tracking</b><span>Follow your order from packing to delivery.</span></div></div>
+ <h2 class="t">What customers say</h2><div class="rv">${RV.map(r=>`<div><span class="rt">${r[2]} ★</span><p><b>${r[3]}</b></p><p>${r[4]}</p><span class="mut">${r[0]}, ${r[1]}</span></div>`).join("")}</div></div>`}
+function shop(q){const s=(q.get("q")||"").toLowerCase(),tag=q.get("tag");
+ if(!keep){F={cat:new Set(q.getAll("cat")),brand:new Set(),max:mx(),rate:0,stock:false,sort:"rel"};fo=false}
+ let L=P.filter(p=>(!s||(p.name+" "+p.cat+" "+p.brand).toLowerCase().includes(s))&&(!tag||p.tag===tag||(tag==="offer"&&disc(p)>=28))&&(!F.cat.size||F.cat.has(p.cat))&&(!F.brand.size||F.brand.has(p.brand))&&p.price<=F.max&&p.rating>=F.rate&&(!F.stock||p.stock>0));
+ const so={pop:(a,b)=>b.rev-a.rev,lo:(a,b)=>a.price-b.price,hi:(a,b)=>b.price-a.price,new:(a,b)=>b.id-a.id,rate:(a,b)=>b.rating-a.rating}[F.sort];if(so)L.sort(so);
+ const T={best:"Best sellers",trend:"Trending now",new:"New arrivals",offer:"Special offers"},ti=s?`Results for “${esc(q.get("q"))}”`:tag?T[tag]:F.cat.size==1?[...F.cat][0]:"All products";
+ const bs=[...new Set(P.map(p=>p.brand))].sort(),ck=(k,v)=>`<label class="ck"><input type="checkbox" ${F[k].has(v)?"checked":""} onchange="tg('${k}','${v}')">${v}</label>`;
+ return `<div class="wrap"><div class="bc"><a href="#/">Home</a> / ${ti}</div><div class="shop">${fo?'<div class="fo" onclick="tf()"></div>':""}<aside class="fp ${fo?"open":""}"><div class="fh"><b>Filters</b><button class="x" onclick="tf()">Show ${L.length} results</button></div><h4>Sport</h4>${Object.keys(H).map(c=>ck("cat",c)).join("")}<h4>Brand</h4>${bs.map(b=>ck("brand",b)).join("")}<h4>Price up to ${inr(F.max)}</h4><input type="range" min="300" max="${mx()}" step="100" value="${F.max}" aria-label="Maximum price" onchange="F.max=+this.value;route(true)"><h4>Rating</h4>${[0,4,3].map(r=>`<label class="ck"><input type="radio" name="rt" ${F.rate===r?"checked":""} onchange="F.rate=${r};route(true)">${r?r+" stars and above":"All ratings"}</label>`).join("")}<h4>Availability</h4><label class="ck"><input type="checkbox" ${F.stock?"checked":""} onchange="F.stock=this.checked;route(true)">In stock only</label><button class="b3" onclick="go('#/shop')">Clear all</button></aside>
+ <div><div class="bar"><div><h1 style="font-size:24px">${ti}</h1><span class="mut">${L.length} products</span></div><div class="row">${AD?`<a class="b2" href="#/admin?new=${encodeURIComponent(F.cat.size==1?[...F.cat][0]:"")}">+ Add product</a>`:""}<button class="fbtn" onclick="tf()">Filters</button><select aria-label="Sort by" onchange="F.sort=this.value;route(true)">${[["rel","Relevance"],["pop","Popularity"],["lo","Price: low to high"],["hi","Price: high to low"],["new","Newest"],["rate","Customer rating"]].map(([k,v])=>`<option value="${k}" ${F.sort===k?"selected":""}>${v}</option>`).join("")}</select></div></div>${L.length?`<div class="grid cs">${L.map(card).join("")}</div>`:'<div class="empty"><h3>No products match</h3><p>Try a different search or clear some filters.</p></div>'}</div></div></div>`}
+function tg(k,v){F[k].has(v)?F[k].delete(v):F[k].add(v);route(true)}
+function tf(){fo=!fo;route(true)}
+function pdp(id){const p=by(id);if(!p)return '<div class="wrap empty">Product not found. <a href="#/shop">Browse products</a></div>';
+ if(last!==id){sv=0;si=0;sq=1;last=id}const v=p.v[sv],u=unit(p,sv),m=p.mrp+v.a,st=vs(p);
+ return `<div class="wrap"><div class="bc"><a href="#/">Home</a> / <a href="#/shop?cat=${encodeURIComponent(p.cat)}">${p.cat}</a> / ${p.name}</div><div class="pd"><div><div class="big">${art(p,si)}</div><div class="th">${[0,1,2,3].map(i=>`<button class="${i===si?"on":""}" aria-label="View image ${i+1}" onclick="si=${i};route(true)">${art(p,i)}</button>`).join("")}</div></div>
+ <div class="inf"><span class="br">${p.brand} · SKU MS-${String(p.id).padStart(4,"0")}</span><h1>${p.name}</h1>${rate(p)}<div class="pp big2"><b>${inr(u)}</b><s>${inr(m)}</s><em>${Math.round((1-u/m)*100)}% off</em></div><span class="mut">Inclusive of all taxes. No returns or exchanges.</span>
+ <div><h4 style="margin-bottom:8px">Select option</h4>${p.v.map((x,i)=>`<button class="pill ${i===sv?"on":""}" onclick="sv=${i};sq=1;route(true)">${x.l}</button>`).join("")}</div>
+ <div class="st ${st<10?"low":""}">${st<10?"Only "+st+" left in this option":"In stock"}</div><div class="row"><div class="qs"><button aria-label="Decrease" onclick="sq=Math.max(1,sq-1);route(true)">−</button><span>${sq}</span><button aria-label="Increase" onclick="sq=Math.min(${st},sq+1);route(true)">+</button></div></div>
+ <div class="row acts"><button class="b2 lg" onclick="addC(${id},sv,sq);toast('Added to cart')">Add to cart</button><button class="b1 lg" onclick="addC(${id},sv,sq);go('#/checkout')">Buy now</button></div><button class="b3" style="color:var(--mut);align-self:flex-start" onclick="tw(${id})">${D.wish.includes(id)?"Remove from wishlist":"Save to wishlist"}</button>
+ <div class="box"><h4 style="margin-bottom:8px">Check delivery</h4><div class="chk"><input id="pc" maxlength="6" inputmode="numeric" placeholder="Enter pincode" aria-label="Pincode"><button class="b2" onclick="chk()">Check</button></div><div id="dr" class="mut" style="margin-top:8px">Free in Shivamogga. Elsewhere from ₹60.</div></div></div></div>
+ ${ftH(p)}<h2 class="t">Description</h2><p style="max-width:70ch">${p.name} from ${p.brand}, made for regular training and match play. Available in ${p.v.map(x=>x.l).join(", ")}.</p>
+ <h2 class="t">Specifications</h2><table><tr><td>Brand</td><td>${p.brand}</td></tr><tr><td>Sport</td><td>${p.cat}</td></tr>${ftS(p)}<tr><td>Options</td><td>${p.v.map(x=>x.l).join(", ")}</td></tr><tr><td>Returns</td><td>Not available. All sales are final.</td></tr></table>
+ <h2 class="t">Customer reviews</h2><div class="rv">${RV.map(r=>`<div><span class="rt">${r[2]} ★</span><p><b>${r[3]}</b></p><p>${r[4]}</p><span class="mut">${r[0]}, verified buyer</span></div>`).join("")}</div>
+ <h2 class="t">Related products</h2><div class="grid">${P.filter(x=>x.cat===p.cat&&x.id!==id).slice(0,4).map(card).join("")}</div></div>`}
+function chk(){const p=$("#pc").value.trim();if(!/^\d{6}$/.test(p)){$("#dr").textContent="Enter a valid 6-digit pincode.";return}const z=zone(p,"");$("#dr").textContent=z==="home"?"Free home delivery to Shivamogga.":`Delivery charge ${inr(DEL[z])}. Free on orders above ${inr(DEL.free)}.`}
+function cartV(){if(!D.cart.length)return '<div class="wrap empty"><h2>Your cart is empty</h2><p>Add something from the store to get started.</p><a class="b1" href="#/shop">Continue shopping</a></div>';
+ return `<div class="wrap"><h1 style="font-size:28px;margin-bottom:12px">Shopping cart</h1><div class="two"><div class="box">${D.cart.map((l,i)=>{const p=by(l.id);return `<div class="ln"><a href="#/p/${p.id}">${art(p)}</a><div><a href="#/p/${p.id}"><b>${p.name}</b></a><div class="mut">${p.v[l.v].l} · ${inr(unit(p,l.v))} each</div><div class="row" style="margin-top:6px"><div class="qs"><button aria-label="Decrease" onclick="qc(${i},-1)">−</button><span>${l.q}</span><button aria-label="Increase" onclick="qc(${i},1)">+</button></div><button class="b3" style="color:var(--mut);padding:6px 10px" onclick="rm(${i})">Remove</button><button class="b3" style="color:var(--pri);padding:6px 10px" onclick="sl(${i})">Save for later</button></div></div><b>${inr(unit(p,l.v)*l.q)}</b></div>`}).join("")}</div>
+ <div class="box"><div class="cpn row" style="margin-bottom:10px"><input id="cpi" placeholder="Coupon code" value="${D.cp}" aria-label="Coupon code"><button class="b2" onclick="ac()">Apply</button></div>${sumH()}<a class="b1" style="display:block;margin-top:12px" href="#/checkout">Proceed to checkout</a><a class="b3" style="display:block;margin-top:8px;color:var(--pri)" href="#/shop">Continue shopping</a></div></div></div>`}
+function qc(i,d){const l=D.cart[i];l.q+=d;l.q=Math.min(l.q,vs(by(l.id)));if(l.q<=0)D.cart.splice(i,1);save();route(true)}
+function rm(i){D.cart.splice(i,1);save();route(true)}
+function sl(i){const id=D.cart[i].id;if(!D.wish.includes(id))D.wish.push(id);D.cart.splice(i,1);save();route(true);toast("Saved to wishlist")}
+function ac(){const v=$("#cpi").value.trim().toUpperCase(),c=CP.find(x=>x.c===v),t=tot();if(!c){D.cp="";toast("Invalid coupon code")}else if(t.sub<c.min){D.cp="";toast("Add items worth "+inr(c.min)+" to use "+v)}else{D.cp=v;toast(v+" applied")}save();route(true)}
+function checkout(){if(!D.cart.length)return cartV();const a=D.addr||{},f=(k,l,w,t)=>`<label class="${w?"w":""}">${l}<input value="${esc(a[k])}" ${t||""} oninput="D.addr.${k}=this.value;sv2()"></label>`;
+ return `<div class="wrap"><h1 style="font-size:28px;margin-bottom:12px">Checkout</h1><div class="two"><div><div class="box"><h3 style="margin-bottom:12px">Delivery address</h3><div class="fm">${f("name","Full name")}${f("mobile","Mobile number",0,'inputmode="numeric" maxlength="10"')}${f("email","Email",1,'type="email"')}${f("addr","Full address",1)}${f("area","Area or village")}${f("city","City")}${f("dist","District")}${f("state","State")}${f("pin","Pincode",0,'inputmode="numeric" maxlength="6"')}${f("note","Delivery instructions",0)}</div></div>
+ <div class="box" style="margin-top:14px"><h3 style="margin-bottom:8px">Payment method</h3>${["UPI","Credit or debit card","Net banking"].map(m=>`<label class="ck"><input type="radio" name="pm" ${D.pm===m?"checked":""} onchange="D.pm='${m}';save()">${m}</label>`).join("")}<p class="mut" style="margin:8px 0 0">All sales are final: no returns or exchanges. Demo only: no real payment is taken in this prototype.</p></div></div>
+ <div class="box"><h3 style="margin-bottom:8px">Order summary</h3>${D.cart.map(l=>{const p=by(l.id);return `<div class="sr"><span>${p.name} (${p.v[l.v].l}) × ${l.q}</span><span>${inr(unit(p,l.v)*l.q)}</span></div>`}).join("")}<div id="sum" style="margin-top:8px">${sumH()}</div><div id="ce" class="err" role="alert"></div><button class="b1" style="width:100%;margin-top:10px" onclick="place()">Pay and place order</button></div></div></div>`}
+function sv2(){save();$("#sum").innerHTML=sumH()}
+function place(){const a=D.addr,bad=!a.name?"Enter your full name.":!/^[6-9]\d{9}$/.test(a.mobile||"")?"Enter a valid 10-digit mobile number.":!a.addr?"Enter your full address.":!a.city?"Enter your city.":!a.dist?"Enter your district.":!a.state?"Enter your state.":!/^\d{6}$/.test(a.pin||"")?"Enter a valid 6-digit pincode.":"";
+ if(bad){$("#ce").textContent=bad;return}
+ $("#ov").innerHTML='<div class="mod"><div><h3>Contacting payment gateway</h3><p class="mut">Verifying your payment. Please do not close this page.</p></div></div>';
+ setTimeout(()=>{const t=tot(),id="SP"+D.n++;D.orders.unshift({id,at:Date.now(),a:{...a},items:D.cart.map(l=>{const p=by(l.id);return{n:p.name,v:p.v[l.v].l,q:l.q,u:unit(p,l.v)}}),sub:t.sub,cd:t.cd,del:t.del,tot:t.tot,pm:D.pm,st:1});D.cart=[];D.cp="";save();$("#ov").innerHTML="";go("#/done/"+id)},1500)}
+const tl=o=>`<ol class="tl">${ST.map((s,i)=>`<li class="${i<=o.st?"on":""}"><i></i><span>${s}</span>${i<=1?`<small>${fmt(o.at)}</small>`:""}</li>`).join("")}</ol>`;
+const oc=o=>`<div class="box" style="margin-bottom:12px"><div class="row" style="justify-content:space-between"><b>Order ${o.id}</b><span class="mut">${fmt(o.at)}</span></div>${o.items.map(i=>`<div class="sr"><span>${esc(i.n)} (${esc(i.v)}) × ${i.q}</span><span>${inr(i.u*i.q)}</span></div>`).join("")}<div class="sr"><span>Delivery</span><span>${o.del?inr(o.del):"FREE"}</span></div><div class="sr t"><span>Total paid</span><span>${inr(o.tot)}</span></div><p class="mut">Ship to ${esc(o.a.name)}, ${esc(o.a.addr)}, ${esc(o.a.city)} ${esc(o.a.pin)}. Payment: ${esc(o.pm)} (success).</p>${tl(o)}</div>`;
+function done(id){const o=D.orders.find(x=>x.id===id);if(!o)return '<div class="wrap empty">Order not found.</div>';return `<div class="wrap" style="max-width:720px"><h1 style="font-size:28px">Order placed</h1><p>Thank you, ${esc(o.a.name)}. Your order ID is <b>${o.id}</b>. A confirmation will be sent to ${esc(o.a.mobile)}.</p>${oc(o)}<a class="b1" href="#/shop">Continue shopping</a></div>`}
+function orders(q){let r="";if(q){const id=(q.get("id")||"").toUpperCase(),m=q.get("m")||"",o=D.orders.find(x=>x.id===id&&x.a.mobile===m);r=q.get("id")?(o?oc(o):'<p class="err">No order found. Check the order ID and mobile number.</p>'):""}
+ return `<div class="wrap" style="max-width:760px"><h1 style="font-size:28px;margin-bottom:12px">${q?"Track order":"My orders"}</h1><div class="box row" data-enter style="margin-bottom:14px"><div class="chk" style="max-width:none;flex:1;flex-wrap:wrap"><input id="ti" placeholder="Order ID, for example SP100001" aria-label="Order ID"><input id="tn" placeholder="Mobile number" aria-label="Mobile number" inputmode="numeric"></div><button type="button" class="b1" onclick="go('#/track?id='+encodeURIComponent($('#ti').value)+'&m='+encodeURIComponent($('#tn').value))">Track order</button></div>${q?r:(D.orders.map(oc).join("")||'<div class="empty">No orders yet.</div>')}</div>`}
+function wishV(){const L=D.wish.map(by).filter(Boolean);return `<div class="wrap"><h1 style="font-size:28px;margin-bottom:12px">Wishlist</h1>${L.length?`<div class="grid">${L.map(card).join("")}</div>`:'<div class="empty">Tap the heart on a product to save it here.</div>'}</div>`}
+function page(k){const p=PG[k];if(!p)return '<div class="wrap empty">Page not found. <a href="#/">Go home</a></div>';return `<div class="wrap" style="max-width:720px"><h1 style="margin-bottom:12px">${p[0]}</h1><p>${p[1]}</p><p class="mut">Draft text, to be confirmed by the store owner.</p></div>`}
+function nav(){$("#cn").innerHTML='<a href="#/shop"><b>☰ All</b></a>'+CO().map(c=>`<a href="#/shop?cat=${encodeURIComponent(c)}">${c}</a>`).join("")+'<a href="#/shop?tag=offer">Offers</a><a href="#/bulk">Bulk orders</a>';
+$("#sg").innerHTML=P.map(p=>`<option value="${p.name}">`).join("");
+$("#ft").innerHTML=`<div class="fi"><div><h4>Malnad Sports</h4><span style="opacity:.8">Gear up. Play hard. Delivered from Shivamogga.</span><div class="so"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">IG</a><a href="#" aria-label="YouTube">YT</a><a href="#" aria-label="WhatsApp">WA</a></div></div><div><h4>Shop</h4><a href="#/shop">All products</a><a href="#/shop?tag=new">New arrivals</a><a href="#/shop?tag=best">Best sellers</a><a href="#/shop?tag=offer">Deals</a></div><div><h4>Help</h4><a href="#/track">Track order</a><a href="#/page/shipping">Shipping and delivery</a><a href="#/page/cancellation">Cancellation</a></div><div><h4>About</h4><a href="#/page/about">Our story</a><a href="#/page/contact">Contact us</a><a href="#/page/terms">Terms and conditions</a><a href="#/page/privacy">Privacy policy</a><a href="#/admin">Admin login</a></div></div><div class="cp">© 2026 Malnad Sports. All rights reserved.</div>`}
+applyCat();nav();addEventListener("hashchange",()=>{if(location.hash!==RH){RH=location.hash;route();sbInit();scrollTo(0,0)}});route();
+</script>
+
+<!-- ══ VOICE MODAL ══════════════════════════════════════════════════════ -->
+<div id="voice-modal" role="dialog" aria-modal="true" aria-label="Voice search">
+  <div class="vm-box">
+    <h3 id="vm-title">Listening…</h3>
+    <div class="mic-ring" id="vm-ring">
+      <svg viewBox="0 0 24 24" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="9" y="2" width="6" height="12" rx="3" fill="#fff"/>
+        <path d="M5 10a7 7 0 0 0 14 0" stroke="#fff" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+        <line x1="12" y1="17" x2="12" y2="22" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
+        <line x1="8.5" y1="22" x2="15.5" y2="22" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <p id="vm-txt">Say a product name, e.g. &ldquo;cricket bat&rdquo;</p>
+    <button class="vm-cancel" onclick="closeVoice()">Cancel</button>
+  </div>
+</div>
+
+<!-- ══ CAMERA MODAL ══════════════════════════════════════════════════════ -->
+<div id="cam-modal" role="dialog" aria-modal="true" aria-label="Image search">
+  <video id="cam-video" autoplay playsinline muted></video>
+  <canvas id="cam-canvas"></canvas>
+
+  <div class="cam-ui">
+    <!-- top bar -->
+    <div class="cam-topbar">
+      <button class="cam-icon-btn" onclick="closeCamera()" aria-label="Close">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <span class="cam-topbar-title">Search by image</span>
+      <button class="cam-icon-btn" id="flip-btn" onclick="flipCamera()" aria-label="Flip camera">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 4v6h6M23 20v-6h-6"/><path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4-4.64 4.36A9 9 0 0 1 3.51 15"/></svg>
+      </button>
+    </div>
+
+    <!-- viewfinder -->
+    <div class="cam-viewfinder">
+      <div class="cam-frame">
+        <span class="cr1"></span>
+        <span class="cr2"></span>
+      </div>
+      <p class="cam-hint">Point at a sports product and tap capture</p>
+    </div>
+
+    <!-- shutter -->
+    <div class="cam-bottom">
+      <div style="width:52px"></div>
+      <button class="cam-snap-btn" onclick="snapPhoto()" aria-label="Take photo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+      </button>
+      <div style="width:52px"></div>
+    </div>
+
+    <!-- result overlay -->
+    <div class="cam-result-panel" id="cam-result">
+      <img id="cam-preview" src="" alt="Captured photo">
+      <h3>Select a sport category</h3>
+      <div class="cam-pills" id="cam-pill-row"></div>
+      <button class="cam-retake-btn" onclick="retakePhoto()">&#8634;&nbsp; Retake photo</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ================================================================
+   VOICE SEARCH  — Web Speech API (Chrome, Edge, Samsung Browser)
+================================================================ */
+var _rec = null;
+var _SR  = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+function openVoice() {
+  if (!_SR) {
+    alert('Voice search works in Chrome or Edge. Please open this page in Chrome.');
+    return;
+  }
+  var modal = document.getElementById('voice-modal');
+  var ring  = document.getElementById('vm-ring');
+  var title = document.getElementById('vm-title');
+  var txt   = document.getElementById('vm-txt');
+
+  ring.className  = 'mic-ring';
+  title.textContent = 'Listening\u2026';
+  txt.textContent   = 'Say a product name, e.g. \u201ccricket bat\u201d';
+  modal.classList.add('open');
+  document.getElementById('mic-btn').classList.add('listening');
+
+  _rec = new _SR();
+  _rec.lang           = 'en-IN';
+  _rec.interimResults = true;
+  _rec.continuous     = false;
+  _rec.maxAlternatives = 3;
+
+  _rec.onresult = function(e) {
+    var interim = '', final_ = '';
+    for (var i = e.resultIndex; i < e.results.length; i++) {
+      if (e.results[i].isFinal) final_ += e.results[i][0].transcript;
+      else interim += e.results[i][0].transcript;
+    }
+    txt.textContent = (final_ || interim || '').trim() || '\u2026';
+    if (final_ && final_.trim()) {
+      title.textContent = 'Got it!';
+      ring.className = 'mic-ring done';
+      var q = final_.trim();
+      setTimeout(function() {
+        closeVoice();
+        document.getElementById('q').value = q;
+        srch();
+      }, 650);
+    }
+  };
+
+  _rec.onspeechend = function() { try { _rec.stop(); } catch(e) {} };
+
+  _rec.onerror = function(e) {
+    var msgs = {
+      'not-allowed'  : 'Microphone access denied. Allow mic in browser settings.',
+      'no-speech'    : 'No speech detected \u2014 try again.',
+      'network'      : 'Network error. Check your connection.',
+      'audio-capture': 'No microphone found on this device.'
+    };
+    title.textContent = 'Could not hear you';
+    txt.textContent   = msgs[e.error] || ('Error: ' + e.error);
+    ring.className = 'mic-ring done';
+    document.getElementById('mic-btn').classList.remove('listening');
+  };
+
+  _rec.onend = function() {
+    document.getElementById('mic-btn').classList.remove('listening');
+  };
+
+  try { _rec.start(); } catch(err) {
+    title.textContent = 'Cannot start mic';
+    txt.textContent = err.message;
+  }
+}
+
+function closeVoice() {
+  document.getElementById('voice-modal').classList.remove('open');
+  document.getElementById('mic-btn').classList.remove('listening');
+  if (_rec) { try { _rec.abort(); } catch(e) {} _rec = null; }
+}
+
+document.getElementById('voice-modal').addEventListener('click', function(e) {
+  if (e.target === this) closeVoice();
+});
+
+
+/* ================================================================
+   CAMERA SEARCH  — getUserMedia → live viewfinder → snap → picker
+================================================================ */
+var _stream     = null;
+var _facing     = 'environment';   // start rear camera
+
+async function openCamera() {
+  document.getElementById('cam-result').classList.remove('show');
+  document.getElementById('cam-modal').classList.add('open');
+  document.getElementById('cam-btn').classList.add('capturing');
+  await _startCam();
+}
+
+async function _startCam() {
+  if (_stream) { _stream.getTracks().forEach(function(t){t.stop();}); _stream = null; }
+  var video = document.getElementById('cam-video');
+  try {
+    _stream = await navigator.mediaDevices.getUserMedia({
+      video: { facingMode: { ideal: _facing }, width:{ideal:1280}, height:{ideal:960} },
+      audio: false
+    });
+    video.srcObject = _stream;
+  } catch(err) {
+    closeCamera();
+    var msgs = {
+      NotAllowedError  : 'Camera access denied. Allow camera in browser settings and reload.',
+      NotFoundError    : 'No camera found on this device.',
+      NotReadableError : 'Camera is in use by another app.'
+    };
+    alert(msgs[err.name] || ('Camera error: ' + err.message));
+  }
+}
+
+function flipCamera() {
+  _facing = (_facing === 'environment') ? 'user' : 'environment';
+  _startCam();
+}
+
+function snapPhoto() {
+  var video   = document.getElementById('cam-video');
+  var canvas  = document.getElementById('cam-canvas');
+  var preview = document.getElementById('cam-preview');
+  var result  = document.getElementById('cam-result');
+  var pills   = document.getElementById('cam-pill-row');
+
+  canvas.width  = video.videoWidth  || 640;
+  canvas.height = video.videoHeight || 480;
+  canvas.getContext('2d').drawImage(video, 0, 0, canvas.width, canvas.height);
+  preview.src = canvas.toDataURL('image/jpeg', 0.88);
+
+  // stop stream
+  if (_stream) { _stream.getTracks().forEach(function(t){t.stop();}); _stream = null; }
+  video.srcObject = null;
+
+  // build sport pills
+  var SPORTS = ['Cricket','Football','Volleyball','Throwball','Tennis','Badminton','Dumbbells','Gym Items','Kids Sports','Shoes','Socks','Sports Bags','Table Tennis','Basketball','Fitness','Boxing'];
+  pills.innerHTML = '';
+  SPORTS.forEach(function(s) {
+    var b = document.createElement('button');
+    b.className   = 'cam-pill';
+    b.textContent = s;
+    b.onclick = function() {
+      closeCamera();
+      go('#/shop?cat=' + encodeURIComponent(s));
+    };
+    pills.appendChild(b);
+  });
+
+  result.classList.add('show');
+}
+
+function retakePhoto() {
+  document.getElementById('cam-result').classList.remove('show');
+  _startCam();
+}
+
+function closeCamera() {
+  document.getElementById('cam-modal').classList.remove('open');
+  document.getElementById('cam-btn').classList.remove('capturing');
+  if (_stream) { _stream.getTracks().forEach(function(t){t.stop();}); _stream = null; }
+  document.getElementById('cam-video').srcObject = null;
+  document.getElementById('cam-result').classList.remove('show');
+}
+
+// ESC closes any open modal
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') { closeVoice(); closeCamera(); }
+});
+</script>
+</body></html>
